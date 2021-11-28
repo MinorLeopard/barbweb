@@ -1,0 +1,20 @@
+import Image from "next/image";
+const Hero = () => {
+  return (
+    <div
+      className="max-w-6xl min-w-max w-full"
+      style={{ backgroundImage: "url(images/hero.png)" }}
+    >
+      {/* <Image src={require("../images/hero.png")} height={700} /> */}
+
+      <div className="absolute  top-24 text-center left-24 flex flex-col items-start justify-start">
+        <div className="rounded-full h-44 w-44 bg-white" />
+        <div className="text-center mt-10 ml-8">
+          <p>BARB</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Hero;
