@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Background from "../images/hero.png";
 
 const Hero = () => {
   return (
@@ -7,8 +6,6 @@ const Hero = () => {
       className="max-w-full py-10 bg-[#2a2a72] min-w-max flex flex-col w-full md:space-x-28  items-center justify-start md:justify-evenly md:items-start md:flex-row bg-hero-pattern bg-gradient-to-r from-blue-200 via-blue-300 to-blue-900 transition-all transform "
       style={{ backgroundImage: `url(require("../images/mobiles.png"))` }}
     >
-      {/* <Image src={require("../images/hero.png")} height={550} /> */}
-
       <div className="  flex flex-col  top-10 left-24 md:items-start items-center justify-center md:justify-start">
         <div className="rounded-full h-44 w-44 bg-red-600" />
         <div className="text-center mt-14   flex flex-col items-center md:items-start">
