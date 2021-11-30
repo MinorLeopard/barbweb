@@ -65,7 +65,7 @@ const Contact = () => {
             </div>
             <div className="w-full flex justify-center items-center mt-5 ">
               <div className="bg-black p-3 rounded-full w-32 flex items-center justify-center ">
-                <button className="text-white">SUBMIT</button>
+                <button className="text-white font-semibold">SUBMIT</button>
               </div>
             </div>
           </form>
