@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Hero from "../components/Hero";
+import Contact from "../components/Contact.tsx";
+import Hero from "../components/Hero.tsx";
 import Navbar from "../components/Navbar";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
+      <Contact />
     </div>
   );
 }

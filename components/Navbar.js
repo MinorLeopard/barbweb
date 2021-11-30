@@ -1,7 +1,8 @@
 import { MenuIcon } from "@heroicons/react/outline";
 import { useState } from "react";
 import Link from "next/link";
-import Dropdown from "./Dropdown";
+import Dropdown from "./Dropdown.tsx";
+
 const Navbar = () => {
   const [drop, setDrop] = useState(false);
   return (
