@@ -1,30 +1,69 @@
 import { MenuIcon } from "@heroicons/react/outline";
+import { useState } from "react";
+import Link from "next/link";
+import Dropdown from "./Dropdown.tsx";
+
 const Navbar = () => {
+  const [drop, setDrop] = useState(false);
   return (
-    <nav className="p-3 flex  md:max-w-xl lg:max-w-4xl min-w-max w-full justify-between items-center">
+    <nav className="p-3 sticky bg-white mb-2 z-[99] top-0  flex  max-w-full min-w-max w-full justify-between md:justify-evenly items-center   ">
       <div>
-        <p className="text-2xl">BARB</p>
+        <Link href="/">
+          <p className="text-4xl cursor-pointer">BARB 💇‍♂️</p>
+        </Link>
       </div>
       <div>
-        <MenuIcon className="h-7 w-7 md:hidden cursor-pointer transform transition-all  hover:animate-bounce" />
+        <div className="flex flex-col md:hidden">
+          <MenuIcon
+            onClick={() => {
+              if (drop == true) {
+                setDrop(false);
+              } else {
+                setDrop(true);
+              }
+            }}
+            className="h-7 w-7 md:hidden cursor-pointer transform transition-all"
+          />
+          <div className="">{drop ? <Dropdown /> : null}</div>
+        </div>
+
         <ul className="space-x-5 hidden md:flex">
           <a href="">
-            <li className="">Our team</li>
+            <li className="transform transition-all duration-150 hover:scale-105 hover:underline">
+              Our team
+            </li>
           </a>
           <a href="">
-            <li>Cities</li>
+            <li className="transform transition-all duration-150 hover:scale-105 hover:underline">
+              Cities
+            </li>
           </a>
           <a href="">
-            <li>Career</li>
+            <li className="transform transition-all duration-150 hover:scale-105 hover:underline">
+              Career
+            </li>
           </a>
           <a href="">
-            <li>Press</li>
+            <li className="transform transition-all duration-150 hover:scale-105 hover:underline">
+              Press
+            </li>
           </a>
           <a href="">
-            <li>Report</li>
+            <li className="transform transition-all duration-150 hover:scale-105 hover:underline">
+              Report
+            </li>
           </a>
+
           <a href="">
-            <li>Contact us</li>
+            <li className="transform transition-all duration-150 hover:scale-105 hover:underline">
+              Contact us
+            </li>
+          </a>
+
+          <a href="/login">
+            <li className="transform transition-all duration-150 hover:scale-105 hover:underline">
+              Admin ?
+            </li>
           </a>
         </ul>
       </div>
