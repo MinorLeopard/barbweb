@@ -3,8 +3,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div
-      className="max-w-full py-10 bg-[#2a2a72] h-screen max-h-screen min-h-screen  min-w-max flex flex-col w-full md:space-x-28  items-center justify-start md:justify-evenly md:items-start md:flex-row
-       bg-hero-pattern bg-gradient-to-r from-blue-200 via-blue-300 to-blue-900 transition-all transform "
+      className="max-w-full py-10 mb-40 lg:mb-0 bg-[#2a2a72]  min-w-max flex flex-col w-full md:space-x-28  items-center justify-start md:justify-evenly md:items-start md:flex-row bg-hero-pattern bg-gradient-to-r from-blue-200 via-blue-300 to-blue-900 transition-all transform "
       style={{ backgroundImage: `url(require("../images/mobiles.png"))` }}
     >
       <div className="  flex flex-col  top-10 left-24 md:items-start items-center justify-center md:justify-start">
@@ -30,4 +29,3 @@ export default Hero;
 
 // background-color: #2a2a72;
 // background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
-// h-[80vh] rounded-br-[10rem] rounded-bl-[10rem]

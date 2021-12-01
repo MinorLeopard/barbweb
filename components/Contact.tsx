@@ -1,10 +1,17 @@
 const Contact = () => {
   return (
-    <div className="h-screen min-h-screen flex flex-col justify-start  mt-10 max-w-6xl w-full min-w-max   items-center">
+    <div className="h-screen min-h-screen flex flex-col  justify-center  mt-40 lg:mt-0 max-w-6xl w-full min-w-max   items-center">
       <p className="text-4xl font-semibold mb-14">Contact Us</p>
-      <div className="max-w-full min-w-max w-full flex  justify-between items-start ">
-        <div className=" max-w-6xl bg-[#344955] rounded-lg h-[70vh] w-[400px] ml-10 min-w-max"></div>
-        <div className=" max-w-sm w-full min-w-max">
+
+      {/* Containers are inside these */}
+      <div className="max-w-full min-w-max w-full flex flex-col lg:flex-row  justify-between items-center lg:items-center ">
+        <div className=" max-w-6xl bg-[#344955] rounded-lg h-[70vh] w-[400px] lg:ml-10 min-w-max">
+          {/* Green box */}
+        </div>
+
+        {/* form part  */}
+
+        <div className=" max-w-sm w-full min-w-max mt-10 ">
           <form className="w-full max-w-lg">
             <div className="flex flex-wrap -mx-3 mb-6">
               <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
