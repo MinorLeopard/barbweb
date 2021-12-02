@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="h-screen min-h-screen flex flex-col  justify-center  mt-40 lg:mt-0 max-w-6xl w-full min-w-max   items-center">
+    <div className="h-screen min-h-screen flex flex-col  justify-center  mt-56 lg:mt-0 max-w-6xl w-full min-w-max   items-center">
       <p className="text-4xl font-semibold mb-14">Contact Us</p>
 
       {/* Containers are inside these */}
@@ -79,7 +79,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact
