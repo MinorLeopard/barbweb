@@ -7,6 +7,9 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('images/hero.png)",
       },
+      colors: {
+        footerBg: "#514F59",
+      },
     },
   },
   variants: {
