@@ -40,7 +40,7 @@ const Dropdown = () => {
         </a>
       </ul>
     </div>
-  );
-};
+  )
+}
 
-export default Dropdown;
+export default Dropdown

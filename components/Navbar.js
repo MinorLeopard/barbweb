@@ -1,10 +1,10 @@
-import { MenuIcon } from "@heroicons/react/outline";
-import { useState } from "react";
-import Link from "next/link";
-import Dropdown from "./Dropdown.tsx";
+import { MenuIcon } from '@heroicons/react/outline'
+import { useState } from 'react'
+import Link from 'next/link'
+import Dropdown from './Dropdown.tsx'
 
 const Navbar = () => {
-  const [drop, setDrop] = useState(false);
+  const [drop, setDrop] = useState(false)
   return (
     <nav className="p-3 sticky bg-white mb-2 z-[99] top-0  flex  max-w-full min-w-max w-full justify-between md:justify-evenly items-center   ">
       <div>
@@ -17,9 +17,9 @@ const Navbar = () => {
           <MenuIcon
             onClick={() => {
               if (drop == true) {
-                setDrop(false);
+                setDrop(false)
               } else {
-                setDrop(true);
+                setDrop(true)
               }
             }}
             className="h-7 w-7 md:hidden cursor-pointer transform transition-all"
@@ -59,16 +59,18 @@ const Navbar = () => {
               Contact us
             </li>
           </a>
-
-          <a href="/login">
-            <li className="transform transition-all duration-150 hover:scale-105 hover:underline">
-              Admin ?
-            </li>
-          </a>
         </ul>
       </div>
-    </nav>
-  );
-};
 
-export default Navbar;
+      <div>
+        <a href="/login">
+          <p className="transform transition-all duration-150 hover:scale-105 hover:underline">
+            Admin ?
+          </p>
+        </a>
+      </div>
+    </nav>
+  )
+}
+
+export default Navbar
