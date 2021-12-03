@@ -3,7 +3,8 @@ import Image from 'next/image'
 const Hero = () => {
   return (
     <div
-      className="max-w-full py-10 mb-30 lg:mb-0 bg-[#2a2a72]  min-w-max flex flex-col w-full md:space-x-28  items-center justify-start md:justify-evenly md:items-start md:flex-row bg-hero-pattern bg-gradient-to-r from-blue-200 via-blue-300 to-blue-900 transition-all transform "
+      className="max-w-full py-10 mb-30 lg:mb-0 bg-[#2a2a72]  min-w-max flex flex-col w-full md:space-x-28  items-center justify-start md:justify-evenly md:items-start md:flex-row
+       bg-hero-pattern bg-gradient-to-r from-blue-200 via-blue-300 to-blue-900 transition-all transform "
       style={{ backgroundImage: `url(require("../images/mobiles.png"))` }}
     >
       <div className="  flex flex-col  top-10 left-24 md:items-start items-center justify-center md:justify-start">
