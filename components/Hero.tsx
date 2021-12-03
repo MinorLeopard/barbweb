@@ -2,12 +2,15 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div
-      className="max-w-full py-10 mb-30 lg:mb-0 bg-[#2a2a72]  min-w-max flex flex-col w-full md:space-x-28  items-center justify-start md:justify-evenly md:items-start md:flex-row bg-hero-pattern bg-gradient-to-r from-blue-200 via-blue-300 to-blue-900 transition-all transform "
-      style={{ backgroundImage: `url(require("../images/mobiles.png"))` }}
-    >
+    <div className="max-w-6xl py-10 mb-30 lg:mb-0   min-w-max flex flex-col w-full md:space-x-28  items-center justify-start md:justify-evenly md:items-start md:flex-row shadow-xl transition-all transform ">
       <div className="  flex flex-col  top-10 left-24 md:items-start items-center justify-center md:justify-start">
-        <div className="rounded-full h-44 w-44 bg-red-600" />
+        <div className="rounded-full h-44 w-44">
+          <Image
+            src={require('../images/barb_logo.png')}
+            height={950}
+            width={950}
+          />
+        </div>
         <div className="text-center mt-14   flex flex-col items-center md:items-start">
           <p className="text-6xl font-semibold">BARB</p>
           <p className="text-2xl font-semibold">A saloon booking app</p>

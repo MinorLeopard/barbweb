@@ -59,11 +59,16 @@ const Navbar = () => {
               Contact us
             </li>
           </a>
+          <a href="/login" className="">
+            <p className="transform transition-all duration-150 hover:scale-105 hover:underline">
+              Admin ?
+            </p>
+          </a>
         </ul>
       </div>
 
-      <div>
-        <a href="/login">
+      <div className="hidden">
+        <a href="/login" className="">
           <p className="transform transition-all duration-150 hover:scale-105 hover:underline">
             Admin ?
           </p>
