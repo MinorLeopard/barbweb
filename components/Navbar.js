@@ -62,7 +62,7 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div>
+      <div className="hidden xl:flex">
         <a href="/login">
           <p className="transform transition-all duration-150 hover:scale-105 hover:underline">
             Admin ?

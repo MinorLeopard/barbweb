@@ -1,6 +1,6 @@
 const Features = () => {
   return (
-    <div className=" mb-20 flex flex-col items-center justify-center mt-10 ">
+    <div className=" w-[1300px]  max-w-full mb-20 flex flex-col items-center justify-center  ">
       <p className="text-3xl font-semibold ">Why Choose BARB? </p>
 
       {/* 1st part  */}
