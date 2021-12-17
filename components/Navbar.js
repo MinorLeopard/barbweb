@@ -74,3 +74,27 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+// <div className=" max-w-sm space-y-14 py-3 min-w-max w-full rounded-3xl bg-white shadow-lg flex-col justify-evenly items-center">
+// <div className="flex items-center justify-center space-x-2 ">
+//   <UserCircleIcon className="h-10 w-10" />
+//   <div className="text-start">
+//     <p className="font-bold text-2xl">0+</p>
+//     <p className="font-semibold">Downloads</p>
+//   </div>
+// </div>
+// <div className="flex items-center justify-center space-x-2 ">
+//   <LocationMarkerIcon className="h-10 w-10" />
+//   <div className="text-start">
+//     <p className="font-bold text-2xl">0+</p>
+//     <p className="font-semibold">Locations</p>
+//   </div>
+// </div>
+// <div className="flex items-center justify-center space-x-2 ">
+//   <ServerIcon className="h-10 w-10" />
+//   <div className="text-start">
+//     <p className="font-bold text-2xl">0+</p>
+//     <p className="font-semibold">Reviews</p>
+//   </div>
+// </div>
+// </div>

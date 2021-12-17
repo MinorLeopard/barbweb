@@ -1,3 +1,8 @@
+import {
+  LocationMarkerIcon,
+  ServerIcon,
+  UserCircleIcon,
+} from '@heroicons/react/outline'
 import Image from 'next/image'
 
 const Hero = () => {
@@ -35,7 +40,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col xl:flex-row h-[10vh] mt-56  xl:mt-10 mb-20 items-center justify-center xl:justify-between  xl:ml-0  ">
+      <div className="flex flex-col xl:flex-row h-[10vh] mt-56  xl:mt- mb-20 items-center justify-center xl:justify-between  xl:ml-0  ">
         <div className="cursor-pointer">
           <Image
             src={require('../images/playstore.png')}
@@ -49,8 +54,32 @@ const Hero = () => {
             src={require('../images/appstore.png')}
             height={400}
             width={400}
-            className="flex items-center"
+            layout="fixed"
           />
+        </div>
+      </div>
+
+      <div className=" max-w-sm  py-10 min-w-max  xl:max-w-4xl flex flex-col xl:flex-row  w-full rounded-3xl bg-white shadow-lg justify-evenly space-y-20 xl:space-y-0 xl:h-[20vh] items-center">
+        <div className="flex items-center justify-center space-x-2 ">
+          <UserCircleIcon className="h-10 w-10" />
+          <div className="text-start">
+            <p className="font-bold text-2xl">0+</p>
+            <p className="font-semibold">Downloads</p>
+          </div>
+        </div>
+        <div className="flex items-center justify-center space-x-2 ">
+          <LocationMarkerIcon className="h-10 w-10" />
+          <div className="text-start">
+            <p className="font-bold text-2xl">0+</p>
+            <p className="font-semibold">Locations</p>
+          </div>
+        </div>
+        <div className="flex items-center justify-center space-x-2 ">
+          <ServerIcon className="h-10 w-10" />
+          <div className="text-start">
+            <p className="font-bold text-2xl">0+</p>
+            <p className="font-semibold">Reviews</p>
+          </div>
         </div>
       </div>
     </div>

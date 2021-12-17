@@ -16,7 +16,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
