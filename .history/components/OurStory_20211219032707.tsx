@@ -19,8 +19,7 @@ const OurStory = () => {
       </div>
     </div>
     <div className="hidden lg:block lg:w-1/2" >
-      <div className="object-cover h-full " >
-
+      <div className="object-cover h-full" >
         <div className="h-full bg-black opacity-25"></div>
       </div>
     </div>

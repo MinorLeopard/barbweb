@@ -1,16 +1,16 @@
 const Features = () => {
   return (
-    <div className="flex flex-col items-center justify-center max-w-6xl mt-10 mb-20 ">
-      <p className="text-5xl font-semibold ">Why Choose BARB? </p>
+    <div className=" max-w-6xl  mb-20 flex flex-col items-center justify-center mt-10 ">
+      <p className="text-3xl font-semibold ">Why Choose BARB? </p>
 
       {/* 1st part  */}
       <div className="flex flex-col  min-w-max rounded-2xl  bg-[#514F59] mt-10 p-10 items-center justify-center">
-        <div className="flex flex-col items-center justify-between w-full px-10 space-y-20 lg:flex-row ">
+        <div className="flex flex-col lg:flex-row justify-between w-full px-10 space-y-20 items-center ">
           {/* left div  */}
           <div className="bg-white  min-w-max w-[400px] h-[45vh]"></div>
           {/* right div  */}
-          <div className="flex flex-col items-start ml-10 text-left ">
-            <p className="text-2xl font-semibold text-left text-white ">
+          <div className=" flex flex-col ml-10   items-start text-left">
+            <p className="text-2xl text-white font-semibold text-left ">
               Dolor diam labore sed ut diam .
             </p>
             <p className="w-[400px] text-white items-center pt-10">
@@ -26,11 +26,11 @@ const Features = () => {
       </div>
 
       {/* 2nd div  */}
-      <div className="flex flex-col items-center justify-center w-full p-10 bg-white shadow-xl min-w-max rounded-2xl">
-        <div className="flex flex-col items-center justify-between w-full px-10 space-y-20 lg:flex-row ">
+      <div className="flex flex-col w-full min-w-max rounded-2xl  bg-white shadow-xl  p-10 items-center justify-center">
+        <div className="flex flex-col lg:flex-row  space-y-20  justify-between w-full px-10 items-center ">
           {/* right div  */}
-          <div className="flex flex-col items-start mr-10 text-left ">
-            <p className="text-2xl font-semibold text-left text-black ">
+          <div className=" flex flex-col mr-10   items-start text-left">
+            <p className="text-2xl text-black font-semibold text-left ">
               Dolor diam labore sed ut diam .
             </p>
             <p className="w-[400px] text-black items-center pt-10">
@@ -48,12 +48,12 @@ const Features = () => {
       </div>
       {/* 3rd div  */}
       <div className="flex flex-col w-full min-w-max rounded-2xl  bg-[#514F59]  p-10 items-center justify-center">
-        <div className="flex flex-col items-center justify-between w-full px-10 space-y-20 lg:flex-row ">
+        <div className="flex space-y-20  lg:flex-row flex-col justify-between w-full px-10 items-center ">
           {/* left div  */}
           <div className="bg-white  min-w-max w-[400px] h-[25vh] xl:h-[45vh]"></div>
           {/* right div  */}
-          <div className="flex flex-col items-center ml-5 text-left xl:ml-10">
-            <p className="text-2xl font-semibold text-center text-white ">
+          <div className=" flex flex-col ml-5 xl:ml-10   items-center text-left">
+            <p className="text-2xl text-white font-semibold text-center ">
               Dolor diam labore sed ut diam .
             </p>
             <p className="w-[400px] text-white items-center pt-10">
@@ -69,11 +69,11 @@ const Features = () => {
       </div>
 
       {/* 4th div  */}
-      <div className="flex flex-col items-center justify-center w-full p-10 bg-white shadow-xl min-w-max rounded-2xl">
-        <div className="flex flex-col items-center justify-between w-full px-10 space-y-20 lg:flex-row ">
+      <div className="flex   flex-col w-full min-w-max rounded-2xl  bg-white shadow-xl p-10 items-center justify-center">
+        <div className="flex space-y-20  lg:flex-row flex-col justify-between w-full px-10 items-center ">
           {/* right div  */}
-          <div className="flex flex-col items-center text-left xl:mr-10">
-            <p className="text-2xl font-semibold text-left text-black ">
+          <div className=" flex flex-col  xl:mr-10 items-center text-left">
+            <p className="text-2xl text-black font-semibold text-left ">
               Dolor diam labore sed ut diam .
             </p>
             <p className="w-[400px] text-black items-center pt-10">

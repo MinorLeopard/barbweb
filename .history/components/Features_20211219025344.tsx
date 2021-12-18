@@ -1,7 +1,7 @@
 const Features = () => {
   return (
     <div className="flex flex-col items-center justify-center max-w-6xl mt-10 mb-20 ">
-      <p className="text-5xl font-semibold ">Why Choose BARB? </p>
+      <p className="text-5xl font-semibold animate-spin">Why Choose BARB? </p>
 
       {/* 1st part  */}
       <div className="flex flex-col  min-w-max rounded-2xl  bg-[#514F59] mt-10 p-10 items-center justify-center">

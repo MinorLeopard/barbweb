@@ -9,7 +9,7 @@ const OurStory = () => {
   <div className="flex bg-white" >
     <div className="flex items-center px-8 text-center lg:text-left md:px-12 lg:w-1/2">
       <div>
-        <h2 className="font-normal text-gray-800 text-7xl md:text-6xl">OUR <span className="font-extrabold text-gray-500">STORY</span></h2>
+        <h2 className="text-5xl font-normal text-gray-800 md:text-4xl">OUR <span className="font-extrabold text-gray-500">STORY</span></h2>
         <p className="text-lg text-gray-500 mt-7 md:text-base">
           Technological advancements in all industries necessitate growth of salon industry and providing people solutions for styling in an organized manner. People wait hours in queue at salons for haircuts and go to the same barbers their previous generation went to, just because they are used to them and somehow still feel that they are dissatisfied with the server. Barb wanted to offer a solution that would allow customers to choose their next salon appointment based on reviews and ratings, quality photos, browsing the catalog to learn about pricing and to take advantage of multiple offers and discounts.
           <br />
@@ -19,8 +19,7 @@ const OurStory = () => {
       </div>
     </div>
     <div className="hidden lg:block lg:w-1/2" >
-      <div className="object-cover h-full " >
-
+      <div className="object-cover h-full" >
         <div className="h-full bg-black opacity-25"></div>
       </div>
     </div>

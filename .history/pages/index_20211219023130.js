@@ -13,6 +13,7 @@ export default function Home() {
         <title>BARB💇‍♂️</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navbar />
       <Hero />
       <OurStory/>
       <Features />

@@ -1,7 +1,7 @@
 const Features = () => {
   return (
     <div className="flex flex-col items-center justify-center max-w-6xl mt-10 mb-20 ">
-      <p className="text-5xl font-semibold ">Why Choose BARB? </p>
+      <p className="text-3xl font-semibold text-ubuntu ">Why Choose BARB? </p>
 
       {/* 1st part  */}
       <div className="flex flex-col  min-w-max rounded-2xl  bg-[#514F59] mt-10 p-10 items-center justify-center">
@@ -52,7 +52,7 @@ const Features = () => {
           {/* left div  */}
           <div className="bg-white  min-w-max w-[400px] h-[25vh] xl:h-[45vh]"></div>
           {/* right div  */}
-          <div className="flex flex-col items-center ml-5 text-left xl:ml-10">
+          <div className="flex flex-col items-center ml-5 text-left  xl:ml-10">
             <p className="text-2xl font-semibold text-center text-white ">
               Dolor diam labore sed ut diam .
             </p>
@@ -72,7 +72,7 @@ const Features = () => {
       <div className="flex flex-col items-center justify-center w-full p-10 bg-white shadow-xl min-w-max rounded-2xl">
         <div className="flex flex-col items-center justify-between w-full px-10 space-y-20 lg:flex-row ">
           {/* right div  */}
-          <div className="flex flex-col items-center text-left xl:mr-10">
+          <div className="flex flex-col items-center text-left  xl:mr-10">
             <p className="text-2xl font-semibold text-left text-black ">
               Dolor diam labore sed ut diam .
             </p>

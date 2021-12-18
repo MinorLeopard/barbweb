@@ -65,7 +65,7 @@ const Navbar = () => {
       <div>
         <a href="/login" className="">
         <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
-  ADMIN
+  Button
 </button>
         </a>
       </div>
