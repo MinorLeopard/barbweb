@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen py-2">
       <Head>
-        <title>BARB💇‍♂️</title>
+        <title>BAR 💇‍♂️</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />

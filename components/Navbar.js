@@ -28,7 +28,7 @@ const Navbar = () => {
         </div>
 
         <ul className="space-x-5 hidden md:flex">
-          <a href="">
+          <a href="/our-team">
             <li className="transform transition-all duration-150 hover:scale-105 hover:underline">
               Our team
             </li>

@@ -4,7 +4,7 @@ const Features = () => {
       <p className="text-3xl font-semibold ">Why Choose BARB? </p>
 
       {/* 1st part  */}
-      <div className="flex flex-col w-full  rounded-2xl  bg-[#514F59] mt-10 p-10 items-center justify-center">
+      <div className="  flex flex-col w-full  rounded-2xl  bg-[#514F59] mt-10 p-10 items-center justify-center">
         <div className="flex flex-col lg:flex-row justify-between w-full px-10 space-y-20 items-center ">
           {/* left div  */}
           <div className="bg-white  min-w-max w-[400px] h-[45vh]"></div>
