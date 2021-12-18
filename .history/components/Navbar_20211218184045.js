@@ -59,7 +59,7 @@ const Navbar = () => {
               Contact us
             </li>
           </a>
-          <a href="/login" className="mb-5">
+          <a href="/login" className="mb-3">
           <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
   Button
 </button>

@@ -26,7 +26,7 @@ function Footer() {
           <p className="mt-6 text-lg lg:ml-7 lg:mt-6">
             Give yourself the freedom to focus
           </p>
-          {/* <Image src={AppStore} width={200} height={200} /> Image */}
+          <Image src={AppStore} width={200} height={200} /> {/*Image*/}
           <div className="flex flex-row gap-6 -mt-6 lg:ml-7">
             {' '}
             {/* social media handles */}

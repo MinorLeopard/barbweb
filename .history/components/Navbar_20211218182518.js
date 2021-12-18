@@ -59,13 +59,22 @@ const Navbar = () => {
               Contact us
             </li>
           </a>
-          <a href="/login" className="mb-5">
-          <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
-  Button
-</button>
+          <a href="/login" className="">
+            <p className="transition-all duration-150 transform hover:scale-105 hover:underline">
+              Admin ?
+            </p>
           </a>
         </ul>
       </div>
+
+      <div className="hidden">
+        <a href="/login" className="">
+          <p className="transition-all duration-150 transform hover:scale-105 hover:underline">
+            Admin ?
+          </p>
+        </a>
+      </div>
+      <hr/>
     </nav>
   )
 }

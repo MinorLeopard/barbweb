@@ -43,14 +43,14 @@ const Hero = () => {
             className="flex items-center"
           />
         </div>
-        {/* <div className="cursor-pointer">
-          <Image
+        <div className="cursor-pointer">
+          {/* <Image
             src={require('../images/appstore.png')}
             height={400}
             width={400}
             className="flex items-center"
-          />
-        </div> */}
+          /> */}
+        </div>
       </div>
     </div>
   )

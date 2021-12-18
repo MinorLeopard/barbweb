@@ -3,7 +3,7 @@ const Hero = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full max-w-full py-5 lg:mb-0 min-w-max">
       <div className="flex flex-col items-center justify-start w-full max-w-full py-5 lg:mb-0 min-w-max md:space-x-28 md:justify-evenly md:items-start md:flex-row">
-        <div className="flex flex-col items-center justify-center top-10 left-24 md:items-start md:justify-start">
+        <div className="flex flex-col items-center justify-center  top-10 left-24 md:items-start md:justify-start">
           <div className="rounded-full h-44 w-44">
             <Image
               src={require('../images/barb_logo.png')}
@@ -43,14 +43,14 @@ const Hero = () => {
             className="flex items-center"
           />
         </div>
-        {/* <div className="cursor-pointer">
-          <Image
+        <div className="cursor-pointer">
+          {/* <Image
             src={require('../images/appstore.png')}
             height={400}
             width={400}
             className="flex items-center"
-          />
-        </div> */}
+          /> */}
+        </div>
       </div>
     </div>
   )
