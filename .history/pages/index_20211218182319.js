@@ -4,18 +4,16 @@ import Features from '../components/Features.tsx'
 import Hero from '../components/Hero.tsx'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import OurStory from '../components/OurStory.tsx'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center w-full max-w-full min-h-screen py-2 min-w-max">
+    <div className="flex flex-col items-center max-w-full min-w-max w-full min-h-screen py-2">
       <Head>
         <title>BARB💇‍♂️</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
       <Hero />
-      <OurStory/>
       <Features />
       <Contact />
       <Footer />

@@ -3,7 +3,7 @@ import {LocationMarkerIcon, ServerIcon, UserCircleIcon,} from "@heroicons/react/
 const Hero = () => {
   return (
 
-    <div className="flex flex-col items-center justify-center w-full max-w-full py-5 lg:mb-0 min-w-max">
+    <div className="flex flex-col items-center justify-center w-full max-w-full py-5lg:mb-0 min-w-max">
       <div className="flex flex-col items-center justify-start w-full max-w-full py-5 lg:mb-0 min-w-max md:space-x-28 md:justify-evenly md:items-start md:flex-row">
         <div className="flex flex-col items-center justify-center top-10 left-24 md:items-start md:justify-start">
           <div className="mt-5 rounded-full">

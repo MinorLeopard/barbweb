@@ -4,7 +4,7 @@ import Features from '../components/Features.tsx'
 import Hero from '../components/Hero.tsx'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import OurStory from '../components/OurStory.tsx'
+import OurStory from '../components/OurStory'
 
 export default function Home() {
   return (
