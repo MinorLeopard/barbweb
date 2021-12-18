@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import {LocationMarkerIcon, ServerIcon, UserCircleIcon,} from "@heroicons/react/solid"
 const Hero = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full max-w-full py-5 lg:mb-0 min-w-max">
@@ -64,8 +63,6 @@ const Hero = () => {
         </div>
       </div>
     </div>
-    </div>
-    
   )
 }
 

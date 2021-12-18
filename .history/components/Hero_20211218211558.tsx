@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import {LocationMarkerIcon, ServerIcon, UserCircleIcon,} from "@heroicons/react/solid"
 const Hero = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full max-w-full py-5 lg:mb-0 min-w-max">
@@ -40,32 +39,8 @@ const Hero = () => {
             className="flex items-center"
           />
         </div>
-        <div className=" max-w-sm  py-10 min-w-max  xl:max-w-4xl flex flex-col xl:flex-row  w-full rounded-3xl bg-white shadow-lg justify-evenly space-y-20 xl:space-y-0 xl:h-[20vh] items-center">
-        <div className="flex items-center justify-center space-x-2 ">
-          <UserCircleIcon className="w-10 h-10" />
-          <div className="text-start">
-            <p className="text-2xl font-bold">0+</p>
-            <p className="font-semibold">Downloads</p>
-          </div>
-        </div>
-        <div className="flex items-center justify-center space-x-2 ">
-          <LocationMarkerIcon className="w-10 h-10" />
-          <div className="text-start">
-            <p className="text-2xl font-bold">0+</p>
-            <p className="font-semibold">Locations</p>
-          </div>
-        </div>
-        <div className="flex items-center justify-center space-x-2 ">
-          <ServerIcon className="w-10 h-10" />
-          <div className="text-start">
-            <p className="text-2xl font-bold">0+</p>
-            <p className="font-semibold">Reviews</p>
-          </div>
-        </div>
       </div>
     </div>
-    </div>
-    
   )
 }
 
