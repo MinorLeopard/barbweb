@@ -64,16 +64,13 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#d1d5da" fill-opacity="1" d="M0,32L0,32L288,32L288,160L576,160L576,64L864,64L864,160L1152,160L1152,96L1440,96L1440,0L1152,0L1152,0L864,0L864,0L576,0L576,0L288,0L288,0L0,0L0,0Z"></path>
-      </svg>
  
     </div>
-
-
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#d1d5da" fill-opacity="1" d="M0,32L0,32L288,32L288,160L576,160L576,64L864,64L864,160L1152,160L1152,96L1440,96L1440,0L1152,0L1152,0L864,0L864,0L576,0L576,0L288,0L288,0L0,0L0,0Z"></path>
+</svg>
   
     </div>
-     
 
 
     
