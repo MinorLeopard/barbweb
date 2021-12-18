@@ -62,11 +62,11 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div>
+      <div className="hidden">
         <a href="/login" className="">
-        <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
-  Button
-</button>
+          <p className="transition-all duration-150 transform hover:scale-105 hover:underline">
+            ADMIN
+          </p>
         </a>
       </div>
     </nav>

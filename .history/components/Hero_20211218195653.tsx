@@ -16,15 +16,15 @@ const Hero = () => {
         <div className="flex items-center mt-24 ml-20 md:mt-0 md:ml-0">
           <div className="mt-24 mr-10">
             <Image
-              src={require('../images/phoonelogo.png')}
-              height={430}
+              src={require('../images/phonelogo.png')}
+              height={420}
               width={210}
             />
           </div>
           <div className="mt-0">
             <Image
               src={require('../images/mobile1.png')}
-              height={430}
+              height={420}
               width={210}
             />
           </div>

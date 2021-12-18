@@ -17,14 +17,14 @@ const Hero = () => {
           <div className="mt-24 mr-10">
             <Image
               src={require('../images/phoonelogo.png')}
-              height={430}
+              height={420}
               width={210}
             />
           </div>
           <div className="mt-0">
             <Image
               src={require('../images/mobile1.png')}
-              height={430}
+              height={420}
               width={210}
             />
           </div>

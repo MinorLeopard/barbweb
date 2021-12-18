@@ -7,8 +7,8 @@ const Hero = () => {
           <div className="rounded-full h-44 w-44">
             <Image
               src={require('../images/heroi.png')}
-              height={420}
-              width={420}
+              height={600}
+              width={700}
             />
           </div>
         </div>
@@ -16,21 +16,21 @@ const Hero = () => {
         <div className="flex items-center mt-24 ml-20 md:mt-0 md:ml-0">
           <div className="mt-24 mr-10">
             <Image
-              src={require('../images/phoonelogo.png')}
-              height={430}
+              src={require('../images/mobile2.png')}
+              height={420}
               width={210}
             />
           </div>
           <div className="mt-0">
             <Image
               src={require('../images/mobile1.png')}
-              height={430}
+              height={420}
               width={210}
             />
           </div>
         </div>
       </div>
-      <div className="flex flex-col xl:flex-row h-[10vh] mt-56  xl:mt-10 mb-20 xl:justify-between  xl:ml-0  ">
+      <div className="flex flex-col xl:flex-row h-[10vh] mt-56  xl:mt-10 mb-20 items-center justify-center xl:justify-between  xl:ml-0  ">
         <div className="cursor-pointer">
           <Image
             src={require('../images/playstore.png')}
@@ -39,6 +39,14 @@ const Hero = () => {
             className="flex items-center"
           />
         </div>
+        {/* <div className="cursor-pointer">
+          <Image
+            src={require('../images/appstore.png')}
+            height={400}
+            width={400}
+            className="flex items-center"
+          />
+        </div> */}
       </div>
     </div>
   )
