@@ -6,7 +6,6 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import OurStory from '../components/OurStory.tsx'
 import Mission from '../components/Mission.tsx'
-import Reviews from '../components/Reviews.tsx'
 
 export default function Home() {
   return (
@@ -19,8 +18,8 @@ export default function Home() {
       <OurStory/>
       <Features />
       <Mission/>
-      <Reviews />
       <Footer />
+      <Reviews />
     </div>
   )
 }

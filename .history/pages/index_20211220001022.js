@@ -19,8 +19,8 @@ export default function Home() {
       <OurStory/>
       <Features />
       <Mission/>
-      <Reviews />
       <Footer />
+      <Reviews />
     </div>
   )
 }

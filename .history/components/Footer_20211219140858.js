@@ -12,7 +12,7 @@ import {
 // Footer component
 function Footer() {
   return (
-    <div className="mt-72 xl:mt-20 max-w-[1420px] rounded-t-3xl    flex flex-col justify-center items-center  bg-gray-500 pb-5 text-white h-full   w-full ">
+    <div className="mt-72 xl:mt-20 max-w-[1420px] rounded-t-3xl    flex flex-col justify-center items-center  bg-footerBg pb-5 text-white h-full   w-full ">
       {/* outer structure */}
       <div className="flex flex-row w-full h-full pt-10 lg:pb-8 lg:justify-between">
         {/* layout of structure */}
@@ -21,19 +21,19 @@ function Footer() {
           {' '}
           {/* left half of the footer */}
           <h1 className="text-2xl font-semibold lg:text-4xl lg:ml-7">
-            Making Salons easier
+            Plan. Focus. Optimize.
           </h1>
           <p className="mt-6 text-lg lg:ml-7 lg:mt-6">
-            Give us a chance to serve you
+            Give yourself the freedom to focus
           </p>
           {/* <Image src={AppStore} width={200} height={200} /> Image */}
-          <div className="flex flex-row gap-6 mt-6 lg:ml-7">
+          <div className="flex flex-row gap-6 -mt-6 lg:ml-7">
             {' '}
             {/* social media handles */}
-            <FaFacebook fontSize="35" />
-            <FaLinkedin fontSize="35" />
-            <FaTwitter fontSize="35" />
-            <FaInstagramSquare fontSize="35" />
+            <FaFacebook fontSize="25" />
+            <FaLinkedin fontSize="25" />
+            <FaTwitter fontSize="25" />
+            <FaInstagramSquare fontSize="25" />
           </div>
           <div className="flex flex-col gap-4 mt-8 lg:flex-row lg:ml-7">
             {' '}
@@ -61,14 +61,14 @@ function Footer() {
               placeholder="E.g. ziggy@space.com"
               className="max-w-sm p-5 pr-0"
             />
-            <p className="w-auto p-3 -ml-6 bg-gray-400 rounded-md cursor-pointer sm:ml-3">
+            <p className="w-auto p-3 -ml-6 bg-purple-400 rounded-md cursor-pointer sm:ml-3">
               Subscribe
             </p>
           </div>
         </div>
       </div>
       <p className="mt-3 text-xs text-center">
-        Copyright © 2021 Barb Salon Services All rights reserved.
+        Copyright © 2020 Barb Salon Services All rights reserved.
       </p>{' '}
       {/* bottom copyright text*/}
     </div>

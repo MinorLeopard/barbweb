@@ -12,7 +12,7 @@ import {
 // Footer component
 function Footer() {
   return (
-    <div className="mt-72 xl:mt-20 max-w-[1420px] rounded-t-3xl    flex flex-col justify-center items-center  bg-gray-500 pb-5 text-white h-full   w-full ">
+    <div className="mt-72 xl:mt-20 max-w-[1420px] rounded-t-3xl    flex flex-col justify-center items-center  bg-gray-600 pb-5 text-white h-full   w-full ">
       {/* outer structure */}
       <div className="flex flex-row w-full h-full pt-10 lg:pb-8 lg:justify-between">
         {/* layout of structure */}

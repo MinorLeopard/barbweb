@@ -61,7 +61,7 @@ function Footer() {
               placeholder="E.g. ziggy@space.com"
               className="max-w-sm p-5 pr-0"
             />
-            <p className="w-auto p-3 -ml-6 bg-gray-400 rounded-md cursor-pointer sm:ml-3">
+            <p className="w-auto p-3 -ml-6 bg-purple-400 rounded-md cursor-pointer sm:ml-3">
               Subscribe
             </p>
           </div>
