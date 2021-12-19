@@ -10,9 +10,6 @@ module.exports = {
       colors: {
         footerBg: "#514F59",
       },
-      borderRadius: {
-        'none': '8rem',
-      }
     },
   },
   variants: {

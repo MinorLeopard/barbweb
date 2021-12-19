@@ -11,7 +11,7 @@ module.exports = {
         footerBg: "#514F59",
       },
       borderRadius: {
-        'none': '8rem',
+        'none': '6rem',
       }
     },
   },
