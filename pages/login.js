@@ -1,13 +1,13 @@
-import Navbar from "../components/Navbar";
-import { motion } from "framer-motion";
-import { useRef } from "react";
-import { useRouter } from "next/router";
+import Navbar from '../components/Navbar'
+import { motion } from 'framer-motion'
+import { useRef } from 'react'
+import { useRouter } from 'next/router'
 
 const Login = () => {
-  const router = useRouter();
+  const router = useRouter()
 
-  const emailRef = useRef();
-  const passwordRef = useRef();
+  const emailRef = useRef()
+  const passwordRef = useRef()
 
   return (
     <div className="flex flex-col  items-center  max-w-full min-w-max w-full  py-2  from-blue-300 via-blue-600 to-blue-900 min-h-screen ">
@@ -18,7 +18,7 @@ const Login = () => {
             className="bg-white p-3 rounded-xl "
             initial={{ y: -570 }}
             animate={{ y: 0 }}
-            transition={{ delay: 0.4, type: "spring" }}
+            transition={{ delay: 0.4, type: 'spring' }}
           >
             <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 grid space-y-5 mt-3 ">
               <div class="mb-4">
@@ -57,13 +57,13 @@ const Login = () => {
                   type="button"
                   whileHover={{
                     scale: 1.1,
-                    boxShadow: "0px 0px 8px rgb(255 255 255)",
+                    boxShadow: '0px 0px 8px rgb(255 255 255)',
                   }}
                   onClick={(e) => {
-                    e.preventDefault();
-                    console.log(emailRef.current.value);
-                    console.log(passwordRef.current.value);
-                    router.push("/serviceAdd");
+                    e.preventDefault()
+                    console.log(emailRef.current.value)
+                    console.log(passwordRef.current.value)
+                    router.push('/serviceAdd')
                   }}
                 >
                   Sign In
@@ -80,7 +80,7 @@ const Login = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Login;
+export default Login

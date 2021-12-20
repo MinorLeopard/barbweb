@@ -28,7 +28,7 @@ const Navbar = () => {
         </div>
 
         <ul className="hidden space-x-5 md:flex">
-          <a href="/our-team">
+          <a href="">
             <li className="transition-all duration-150 transform hover:scale-105 hover:underline">
               Our team
             </li>
@@ -59,16 +59,22 @@ const Navbar = () => {
               Contact us
             </li>
           </a>
+          <a href="/login" className="">
+            <p className="transition-all duration-150 transform hover:scale-105 hover:underline">
+              Admin ?
+            </p>
+          </a>
         </ul>
       </div>
 
-      <div>
+      <div className="hidden">
         <a href="/login" className="">
-          <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
-            Button
-          </button>
+        <button className=''="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
+ADMIN
+</button>
         </a>
       </div>
+      <hr/>
     </nav>
   )
 }
