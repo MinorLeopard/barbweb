@@ -12,9 +12,9 @@ function CardComponent(props) {
                             <p className="">{props.jobTitle}</p>
                         </div>
                         <div className="flex flex-col gap-2.5 -mt-5 lg:gap-1.5 lg:-mt-1 ">
-                            <FaGithub fontSize="20px" cursor="pointer" className="lg:hover:text-gray-500"/>
-                            <FaLinkedin fontSize="20px" cursor="pointer" className="lg:hover:text-gray-500"/>
-                            <FaTwitter fontSize="20px" cursor="pointer" className="lg:hover:text-gray-500"/>
+                            <FaGithub fontSize="20px" cursor="pointer" className="lg:hover:text-gray-700"/>
+                            <FaLinkedin fontSize="20px" cursor="pointer" className="lg:hover:text-gray-700"/>
+                            <FaTwitter fontSize="20px" cursor="pointer" className="lg:hover:text-gray-700"/>
                         </div>
                     </div>
                 </div>

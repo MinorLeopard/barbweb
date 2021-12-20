@@ -10,6 +10,7 @@ const ourteam = () => {
         </h1>
     </div>
     <CardDisplay/>
+    <CardComponent/>
 </section>
     )
 }
