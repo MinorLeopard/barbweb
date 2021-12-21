@@ -6,15 +6,23 @@ import {
 } from '@heroicons/react/solid'
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full max-w-full py-5 lg:mb-0 min-w-max">
+    <div className="flex flex-col items-center justify-center w-full max-w-full py-5 mb-10 lg:mb-0 min-w-max">
       <div className="flex flex-col items-center justify-start w-full max-w-full py-5 lg:mb-0 min-w-max md:space-x-28 md:justify-evenly md:items-start md:flex-row">
         <div className="flex flex-col items-center justify-center top-10 left-24 md:items-start md:justify-start">
-          <div className="mt-5 flex items-center justify-center rounded-full">
+          <div className="mt-5 flex flex-col">
             <Image
               src={require('../images/heroi.png')}
               height={500}
               width={500}
             />
+            <div className="cursor-pointer -mt-12">
+              <Image
+                src={require('../images/playstore.png')}
+                height={100}
+                width={300}
+                className="flex items-center "
+              />
+            </div>
           </div>
         </div>
 
@@ -34,14 +42,6 @@ const Hero = () => {
             />
           </div>
         </div>
-      </div>
-      <div className="cursor-pointer">
-        <Image
-          src={require('../images/playstore.png')}
-          height={100}
-          width={300}
-          className="flex items-center"
-        />
       </div>
 
       <div className="flex justify-center items-center max-w-3xl w-full flex-col xl:flex-row h-[10vh] mt-56  xl:mt-10 mb-20 xl:justify-between  xl:ml-0  ">

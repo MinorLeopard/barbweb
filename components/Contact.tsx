@@ -1,10 +1,10 @@
 const Contact = () => {
   return (
-    <div className="h-screen min-h-screen flex flex-col  justify-center  mt-56 lg:mt-0 max-w-6xl w-full min-w-max   items-center">
+    <div className="flex flex-col  justify-center items-center  mt-56 lg:mt-0">
       <p className="text-4xl font-semibold mb-14">Contact Us</p>
 
       {/* Containers are inside these */}
-      <div className="max-w-full min-w-max w-full flex flex-col lg:flex-row  justify-between items-center lg:items-center ">
+      <div className="w-full flex flex-col lg:flex-row  justify-evenly items-center lg:items-center ">
         <div className=" max-w-6xl bg-[#344955] rounded-lg h-[70vh] w-[400px] lg:ml-10 min-w-max">
           {/* Green box */}
         </div>
@@ -46,6 +46,7 @@ const Contact = () => {
                   <input
                     className=" block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                     id="grid-password"
+                    placeholder="Phone Number"
                   />
                 </div>
 
@@ -56,6 +57,7 @@ const Contact = () => {
                   <input
                     className=" block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                     id="grid-password"
+                    placeholder="Name of your Company"
                   />
                 </div>
               </div>

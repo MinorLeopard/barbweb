@@ -7,16 +7,19 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center max-w-full min-w-max w-full min-h-screen py-2">
+    <div className="">
       <Head>
         <title>BARB💇‍♂️</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
-      <Hero />
-      <Features />
-      <Contact />
-      <Footer />
+
+      <div>
+        <Navbar />
+        <Hero />
+        <Features />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   )
 }
