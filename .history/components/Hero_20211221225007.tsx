@@ -65,7 +65,7 @@ const Hero = () => {
             <ServerIcon className="w-10 h-10" />
             <div className="text-start">
               <p className="text-2xl font-bold">0+</p>
-              <p className="font-semibold">Salons</p>
+              <p className="font-semibold">Reviews</p>
             </div>
           </div>
         </div>

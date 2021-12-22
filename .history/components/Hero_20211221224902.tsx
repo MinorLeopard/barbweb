@@ -65,7 +65,7 @@ const Hero = () => {
             <ServerIcon className="w-10 h-10" />
             <div className="text-start">
               <p className="text-2xl font-bold">0+</p>
-              <p className="font-semibold">Salons</p>
+              <p className="font-semibold">Reviews</p>
             </div>
           </div>
         </div>
@@ -77,7 +77,7 @@ const Hero = () => {
 
 
     <div className='w-screen bg-white'>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E4E7EB" fill-opacity="1" d="M0,64L0,192L288,192L288,160L576,160L576,96L864,96L864,96L1152,96L1152,96L1440,96L1440,0L1152,0L1152,0L864,0L864,0L576,0L576,0L288,0L288,0L0,0L0,0Z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E4E7EB" fill-opacity="1" d="M0,192L0,64L288,64L288,160L576,160L576,192L864,192L864,64L1152,64L1152,192L1440,192L1440,0L1152,0L1152,0L864,0L864,0L576,0L576,0L288,0L288,0L0,0L0,0Z"></path></svg>
       </div>
     </div>
   )
