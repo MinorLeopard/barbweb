@@ -6,7 +6,7 @@ import Dropdown from './Dropdown.tsx'
 const Navbar = () => {
   const [drop, setDrop] = useState(false)
   return (
-    <nav className="p-3 sticky bg-white mb-2 z-[99] top-0  flex  max-w-full min-w-max w-full justify-between md:justify-evenly items-center   ">
+    <nav className="p-3 sticky bg-white mb-2 z-[99] top-0  flex w-full justify-between md:justify-evenly items-center   ">
       <div>
         <Link href="/">
           <p className="text-4xl cursor-pointer">BARB 💇‍♂️</p>
