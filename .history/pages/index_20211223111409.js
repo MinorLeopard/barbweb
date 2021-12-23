@@ -8,7 +8,6 @@ import OurStory from '../components/OurStory.tsx'
 import Mission from '../components/Mission.tsx'
 import Reviews from '../components/Reviews.tsx'
 import Buzz from "../components/TheBuzz"
-import TheBuzz from '../components/TheBuzz'
 
 export default function Home() {
   return (

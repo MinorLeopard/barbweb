@@ -48,8 +48,7 @@ const Features = () => {
             </p>
           </div>
           {/* left div  */}
-          <div className="bg-[#514F59]  min-w-max w-[400px] h-[25vh] xl:h-[45vh]">
-</div>
+          <div className="bg-[#514F59]  min-w-max w-[400px] h-[25vh] xl:h-[45vh]"><a href='https://www.freepik.com/vectors/calendar'>Calendar vector created by freepik - www.freepik.com</a></div>
         </div>
       </div>
       {/* 3rd div  */}

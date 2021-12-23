@@ -5,7 +5,7 @@ const Features = () => {
 <h2 className="mb-10 font-normal text-gray-800 mt-7 text-7xl md:text-6xl">WHY <span className="font-extrabold text-gray-500">BARB</span></h2>
 
       {/* 1st part  */}
-      <div className="flex flex-col items-start justify-center w-full p-10 bg-gray-500 min-w-max rounded-2xl">
+      <div className="flex flex-col items-start justify-center w-full p-10 min-w-max rounded-2xl bg-gray-4--">
         <div className="flex flex-col items-center w-full px-10 lg:flex-row justify-evenly ">
 
           {/* left div  */}
@@ -48,13 +48,12 @@ const Features = () => {
             </p>
           </div>
           {/* left div  */}
-          <div className="bg-[#514F59]  min-w-max w-[400px] h-[25vh] xl:h-[45vh]">
-</div>
+          <div className="bg-[#514F59]  min-w-max w-[400px] h-[25vh] xl:h-[45vh]"></div>
         </div>
       </div>
       {/* 3rd div  */}
 
-      <div className="flex flex-col items-start justify-center w-full p-10 bg-gray-500 min-w-max rounded-2xl">
+      <div className="flex flex-col items-start justify-center w-full p-10 bg-gray-400 min-w-max rounded-2xl">
         <div className="flex flex-col items-start w-full px-10 lg:flex-row justify-evenly ">
           {/* left div  */}
           <div className="bg-white  min-w-max w-[400px] h-[25vh] xl:h-[45vh]"></div>

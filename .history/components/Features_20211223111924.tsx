@@ -48,8 +48,7 @@ const Features = () => {
             </p>
           </div>
           {/* left div  */}
-          <div className="bg-[#514F59]  min-w-max w-[400px] h-[25vh] xl:h-[45vh]">
-</div>
+          <div className="bg-[#514F59]  min-w-max w-[400px] h-[25vh] xl:h-[45vh]"></div>
         </div>
       </div>
       {/* 3rd div  */}

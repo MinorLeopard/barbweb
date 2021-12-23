@@ -23,6 +23,7 @@ export default function Home() {
       <div>
         <Hero />
         <OurStory/>
+        <TheBuzz/>
         <Features />
         <Contact />
         <Footer />
