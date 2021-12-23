@@ -17,7 +17,7 @@ const Hero = () => {
               height={500}
               width={500}
             />
-            <div className="-mt-8 cursor-pointer">
+            <div className="cursor-pointer -mt-15">
               <Image
                 src={require('../images/playstore.png')}
                 height={90}

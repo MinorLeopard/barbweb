@@ -2,7 +2,7 @@ const Features = () => {
   return (
 
     <div className="flex flex-col items-center justify-center mt-10 mb-20 ml-2 mr-2 ">
-<h2 className="mb-10 font-normal text-gray-800 mt-7 text-7xl md:text-6xl">WHY <span className="font-extrabold text-gray-500">BARB</span></h2>
+<h2 className="mt-16 mb-10 font-normal text-gray-800 text-7xl md:text-6xl">WHY<span className="font-extrabold text-gray-500">STORY</span></h2>
 
       {/* 1st part  */}
       <div className="flex flex-col w-full min-w-max rounded-2xl  bg-[#514F59]  p-10 items-start justify-center">

@@ -20,7 +20,6 @@ export default function Home() {
 
       <div>
         <Hero />
-        <OurStory/>
         <Features />
         <Contact />
         <Footer />
