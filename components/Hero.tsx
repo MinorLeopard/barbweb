@@ -15,7 +15,7 @@ const Hero = () => {
               height={500}
               width={500}
             />
-            <div className="cursor-pointer -mt-12">
+            <div className="cursor-pointer -mt-28">
               <Image
                 src={require('../images/playstore.png')}
                 height={100}
@@ -28,24 +28,24 @@ const Hero = () => {
 
         <div className="flex items-center mt-24 ml-20 md:mt-0 md:ml-0">
           <div className="mt-24 mr-10">
-            <Image
+            {/* <Image
               src={require('../images/phoonelogo.png')}
               height={430}
               width={210}
-            />
+            /> */}
           </div>
           <div className="mt-0">
-            <Image
+            {/* <Image
               src={require('../images/mobile1.png')}
               height={430}
               width={210}
-            />
+            /> */}
           </div>
         </div>
       </div>
 
-      <div className="flex justify-center items-center max-w-3xl w-full flex-col xl:flex-row h-[10vh] mt-56  xl:mt-10 mb-20 xl:justify-between  xl:ml-0  ">
-        <div className=" max-w-sm  py-10 min-w-max  xl:max-w-4xl flex flex-col xl:flex-row  w-full rounded-3xl bg-white shadow-lg justify-evenly space-y-20 xl:space-y-0 xl:h-[20vh] items-center">
+      <div className="flex justify-center items-center   w-full flex-col xl:flex-row h-[10vh] mt-56  xl:mt-10 mb-20 xl:justify-between  xl:ml-0  ">
+        <div className="  py-10 min-w-max ml-20 mr-20  flex flex-col xl:flex-row  w-full rounded-3xl bg-white shadow-lg justify-evenly space-y-20 xl:space-y-0 xl:h-[20vh] items-center">
           <div className="flex items-center justify-center space-x-2 ">
             <UserCircleIcon className="w-10 h-10" />
             <div className="text-start">
