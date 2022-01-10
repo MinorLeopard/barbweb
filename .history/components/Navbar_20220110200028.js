@@ -44,7 +44,7 @@ const Navbar = () => {
               Press
             </li>
           </a>
-          <a href="/bugReport">
+          <a href="">
             <li className="transition-all duration-150 transform hover:scale-105 hover:underline">
               Report
             </li>

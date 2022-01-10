@@ -13,7 +13,7 @@ const Features = () => {
           {/* right div  */}
 
           <div className="flex flex-col items-start ml-5 text-left xl:ml-10">
-            <p className="text-4xl font-semibold text-center text-white ">
+            <p className="text-2xl font-semibold text-center text-white ">
 
               Organised structure
             </p>
@@ -35,7 +35,7 @@ const Features = () => {
         <div className="flex flex-col items-center w-full px-10 space-y-10 lg:flex-row lg:space-y-0 justify-evenly ">
           {/* right div  */}
           <div className="flex flex-col items-start mr-10 text-left ">
-            <p className="text-4xl font-semibold text-left text-black ">
+            <p className="text-2xl font-semibold text-left text-black ">
               Providing varitey
             </p>
             <p className="w-[400px] text-black items-center pt-10">
@@ -60,7 +60,7 @@ const Features = () => {
           <div className="bg-white  min-w-max w-[400px] h-[25vh] xl:h-[45vh]"></div>
           {/* right div  */}
           <div className="flex flex-col items-start ml-5 text-left xl:ml-10">
-            <p className="text-4xl font-semibold text-center text-white ">
+            <p className="text-2xl font-semibold text-center text-white ">
 
               Reviews and rating system
             </p>
@@ -81,8 +81,8 @@ const Features = () => {
         <div className="flex flex-col items-center w-full px-10 space-y-10 lg:flex-row lg:space-y-0 justify-evenly ">
           {/* right div  */}
           <div className="flex flex-col items-center mr-10 text-left ">
-            <p className="text-4xl font-semibold text-left text-black ">
-             Providing salons a better market
+            <p className="text-2xl font-semibold text-left text-black ">
+              Dolor diam labore sed ut diam .
             </p>
             <p className="w-[400px] text-black items-center pt-10">
               Et sadipscing kasd invidunt takimata dolor sit. Vero dolores et et

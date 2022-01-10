@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="p-3 sticky bg-white mb-2 z-[99] top-0  flex w-full justify-between md:justify-evenly items-center   ">
       <div>
         <Link href="/">
-          <p className="text-4xl cursor-pointer font-[raleway]">BARB 💇‍♂️</p>
+          <p className="text-4xl cursor-pointer">BARB 💇‍♂️</p>
         </Link>
       </div>
       <div>
@@ -44,7 +44,7 @@ const Navbar = () => {
               Press
             </li>
           </a>
-          <a href="/bugReport">
+          <a href="">
             <li className="transition-all duration-150 transform hover:scale-105 hover:underline">
               Report
             </li>

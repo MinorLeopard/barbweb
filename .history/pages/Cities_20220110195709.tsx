@@ -105,8 +105,8 @@ const Cities = () => {
                             <div>
                             <Image className='mt-20 mr-0'
                                 src={require('../images/ggn.gif')}
-                                height={1000}
-                                width={1200} />
+                                height={700}
+                                width={1000} />
                                 </div>
 
 

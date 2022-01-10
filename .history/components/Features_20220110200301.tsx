@@ -13,7 +13,7 @@ const Features = () => {
           {/* right div  */}
 
           <div className="flex flex-col items-start ml-5 text-left xl:ml-10">
-            <p className="text-4xl font-semibold text-center text-white ">
+            <p className="text-2xl font-semibold text-center text-white ">
 
               Organised structure
             </p>
