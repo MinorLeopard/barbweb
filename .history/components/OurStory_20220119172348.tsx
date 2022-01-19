@@ -53,7 +53,7 @@ const OurStory = () => {
         </div>
     </div>
 </div>
-    )}
+
 
 
 export default OurStory
