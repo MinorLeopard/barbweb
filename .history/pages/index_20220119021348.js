@@ -25,10 +25,10 @@ export default function Home() {
       <div>
         <Navigation/>
         <Hero />
-        <Downloads/>
+        <Downloads className="-mt-25"/>
         <OurStory/>
         <Features />
-        {/* <TheBuzz/> */}
+        <TheBuzz/>
         <Footer />
       </div>
 

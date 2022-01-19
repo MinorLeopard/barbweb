@@ -8,11 +8,10 @@ import Downloads from './Downloads'
 const Hero = () => {
   return (
     <div>
-<div className="w-screen h-screen">
-  <div className="flex items-center justify-center w-full h-full bg-gray-800 p-28">
-    <div className="flex h-full max-w-3xl m-4 md:m-6">
-      <div className="relative transition-all duration-300 border-t border-b border-l border-r group sm:w-full md:w-1/2 hover:bg-slate-700 md:border-r-0 bg-opacity-5">
-
+    <div className="flex flex-col items-center justify-center w-full max-w-full py-5 mb-10 bg-gray-200 lg:mb-0 min-w-max">
+      <div className="flex flex-col items-center justify-start w-full max-w-full py-5 lg:mb-0 min-w-max md:space-x-28 md:justify-evenly md:items-start md:flex-row">
+        <div className="flex flex-col items-center justify-center top-10 left-24 md:items-start md:justify-start">
+          <div className="flex flex-col mt-5">
 
             <Image
               src={require('../images/heroi.png')}
@@ -54,9 +53,7 @@ const Hero = () => {
 
 
 
-
     </div>
-
   )
 }
 

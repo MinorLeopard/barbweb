@@ -33,74 +33,27 @@
 // export default OurStory
 
 const OurStory = () => {
-  return (
+    return (
 
-          <div >
-    
-              <div>
-                  <div className="relative flex flex-col items-center w-screen h-screen pt-12 pb-24 mt-8 -skew-y-12 bg-gradient-to-r from-[#091E67] to-[#23849F] sm:pt-24 sm:pb-32 md:pb-48 lg:pb-56 xl:pb-64 ">
-    
-    
-    
-    
-                  </div>
-    
-                  <div className="container relative h-full  -mt-[775px] w-screen">
-    <div className="grid grid-cols-2">
-    
-    <div className="relative h-full p-10 wrap">
-    
-    
-      <div className="flex items-center justify-between mb-8 w-[290px] md:w-96 h-52 right-timeline sm:left-0 mr-10">
-        <div className="order-1 w-5/12"></div>
-    
-        <div className="order-1 w-5/12 h-64 px-6 py-4 bg-gray-400 rounded-lg shadow-xl">
-    
-        </div>
-      </div>
-    
-      <div className="flex flex-row-reverse items-center justify-between w-[290px] mb-8 left-timeline md:w-96 h-28 md:h-52 mr-10">
-        <div className="order-1 w-5/12"></div>
-    
-        <div className="order-1 w-5/12 h-64 px-6 py-4 bg-gray-400 rounded-lg shadow-xl">
-    
-        </div>
-      </div>
-    
-    
-      <div className="flex items-center justify-between w-[300px] mb-8 h-52 right-timeline md:w-96 mr-10">
-        <div className="order-1 w-5/12"></div>
-    
-        <div className="order-1 w-5/12 h-64 px-6 py-4 bg-gray-400 rounded-lg shadow-xl">
-    
-        </div>
-      </div>
-    
-    
-      <div className="flex flex-row-reverse items-center justify-between w-[300px] mr-10 mb-8 h-52 left-timeline md:w-96">
-        <div className="order-1 w-5/12"></div>
-    
-        <div className="order-1 w-5/12 h-64 px-6 py-4 bg-gray-400 rounded-lg shadow-xl">
-    
-        </div>
-      </div>
-    
-    
-    
-    
+<div className="relative h-screen overflow-hidden bg-slate-800">
+    <img src="images/bg-story.jpeg" className="absolute object-cover w-full h-full"/>
+    <div className="absolute inset-0 bg-black opacity-25">
     </div>
-          <div className="float-right hidden md:block mt-[200px] ml-[140px]">
-         <h1 className="mb-4 text-3xl font-extrabold text-white title-font sm:text-4xl  font-['Montserrat'] hidden md:block">About Us</h1>
-        <p className="mb-8 leading-relaxed text-white font-['Sen']  hidden md:block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.  </p>
+    <div className="container relative z-10 flex items-center w-4/5 py-16 mx-auto my-24 border-4 border-white rounded-lg md:my-32">
+        <div className="relative z-10 flex flex-col items-center justify-between w-full">
+            <p className="flex flex-col items-center text-6xl font-extrabold text-center text-white md:text-8xl">
+                OUR STORY
+            </p>
+            <p className="flex flex-col items-center max-w-lg mt-6 text-lg font-extrabold text-center text-white">
+               Our company began in Patna, Bihar as a small startup covering 47 salons in Patna, providing them with the opportunity to digitize themselves. We created a platform for the common man to pick what he wants in his next appointment at a salon and trying to revolutionize the salon industry and make user experience easy while improving the lifestyle of the people.
+            </p>
+            <a href="#" className="block px-4 py-3 mt-10 text-lg font-bold text-white uppercase bg-gray-800 hover:bg-gray-900 animate-bounce">
+                join us 
+            </a>
+        </div>
     </div>
-    
-    </div>
-    </div>
-    
-              </div>
-          </div>
-      )
-    }
+</div>
+    )}
 
 
 export default OurStory

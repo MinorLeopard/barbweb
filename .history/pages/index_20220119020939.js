@@ -28,7 +28,7 @@ export default function Home() {
         <Downloads/>
         <OurStory/>
         <Features />
-        {/* <TheBuzz/> */}
+        <TheBuzz/>
         <Footer />
       </div>
 
