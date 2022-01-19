@@ -17,10 +17,10 @@ const Hero = () => {
       <div className="absolute right-0 z-50 flex items-center justify-center w-20 h-20 font-semibold text-black duration-300 transform translate-x-12 bg-white rounded-full cursor-pointer select-none bottom-32 md:bottom-10 group-hover:bg-black group-hover:text-white group-hover:scale-110">Get It!</div>
       </div>
     <div className="hidden bg-slate-800 md:w-1/2 md:block">
-    <Image className=''
-              src={require("/lmpp.gif")}
-              height={1265}
-              width={850}
+    <Image className='h-full'
+              src={require("/heropage.gif")}
+              height={968}
+              width={750}
             />
     </div>
   </div>

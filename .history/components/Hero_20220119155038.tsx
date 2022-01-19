@@ -19,7 +19,7 @@ const Hero = () => {
     <div className="hidden bg-slate-800 md:w-1/2 md:block">
     <Image className=''
               src={require("/lmpp.gif")}
-              height={1265}
+              height={1270}
               width={850}
             />
     </div>

@@ -34,7 +34,8 @@
 
 const OurStory = () => {
   return (
-
+    const AboutUs = () => {
+      return (
           <div >
     
               <div>
@@ -101,7 +102,10 @@ const OurStory = () => {
           </div>
       )
     }
-
+    
+    export default AboutUs
+  )
+}
 
 export default OurStory
 

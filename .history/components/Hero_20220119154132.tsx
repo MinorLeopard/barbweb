@@ -16,11 +16,11 @@ const Hero = () => {
 <p className="absolute p-4 mt-10 text-xs text-white md:pl-8">Available now on playstore serving a large number of salons. Providing  ease of booking with a review and rating system</p>
       <div className="absolute right-0 z-50 flex items-center justify-center w-20 h-20 font-semibold text-black duration-300 transform translate-x-12 bg-white rounded-full cursor-pointer select-none bottom-32 md:bottom-10 group-hover:bg-black group-hover:text-white group-hover:scale-110">Get It!</div>
       </div>
-    <div className="hidden bg-slate-800 md:w-1/2 md:block">
-    <Image className=''
-              src={require("/lmpp.gif")}
-              height={1265}
-              width={850}
+    <div className="hidden bg-indigo-700 md:w-1/2 md:block">
+    <Image className='h-full'
+              src={require("/heropage.gif")}
+              height={568}
+              width={340}
             />
     </div>
   </div>
