@@ -47,6 +47,7 @@ const Hero = () => {
         </div>
       </div>
 
+<Downloads/>
 
  
     </div>

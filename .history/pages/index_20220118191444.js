@@ -10,7 +10,6 @@ import Reviews from '../components/Reviews.tsx'
 import Buzz from "../components/TheBuzz"
 import TheBuzz from '../components/TheBuzz'
 import Navigation from "../components/NewNavbar/Navigation"
-import Downloads from "../components/Downloads"
 
 export default function Home() {
   return (
@@ -23,9 +22,9 @@ export default function Home() {
 
 
       <div>
+      nav
         <Navigation/>
         <Hero />
-        <Downloads/>
         <OurStory/>
         <Features />
         <TheBuzz/>

@@ -26,7 +26,7 @@ export default function Home() {
         <Navigation/>
         <Hero />
         <Downloads/>
-        <OurStory/>
+        {/* <OurStory/> */}
         <Features />
         <TheBuzz/>
         <Footer />

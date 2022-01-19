@@ -4,7 +4,6 @@ import {
   ServerIcon,
   UserCircleIcon,
 } from '@heroicons/react/solid'
-import Downloads from './Downloads'
 const Hero = () => {
   return (
     <div>
@@ -31,7 +30,7 @@ const Hero = () => {
 
         <div className="flex items-center mt-24 ml-20 md:mt-0 md:ml-0">
           <div className="mt-24 mr-10">
-            <Image className='hidden md:block'
+            <Image
               src={require('../images/phoonelogo.png')}
               height={430}
               width={210}
@@ -47,6 +46,32 @@ const Hero = () => {
         </div>
       </div>
 
+      <div className="flex justify-center items-center max-w-3xl w-full flex-col xl:flex-row h-[10vh] mt-56  xl:mt-10 mb-20 xl:justify-between  xl:ml-0  ">
+        <div className=" max-w-sm  py-10 min-w-max  xl:max-w-4xl flex flex-col xl:flex-row  w-full rounded-3xl bg-white shadow-lg justify-evenly space-y-20 xl:space-y-0 xl:h-[20vh] items-center">
+          <div className="flex items-center justify-center mt-4 space-x-2">
+            <UserCircleIcon className="w-10 h-10" />
+            <div className="text-start">
+              <p className="text-2xl font-bold">0+</p>
+              <p className="font-semibold">Downloads</p>
+            </div>
+          </div>
+          <div className="flex items-center justify-center space-x-2 ">
+            <LocationMarkerIcon className="w-10 h-10" />
+            <div className="text-start">
+              <p className="text-2xl font-bold">0+</p>
+              <p className="font-semibold">Locations</p>
+            </div>
+          </div>
+          <div className="flex items-center justify-center space-x-2 ">
+            <ServerIcon className="w-10 h-10" />
+            <div className="text-start">
+              <p className="text-2xl font-bold">0+</p>
+              <p className="font-semibold">Salons</p>
+            </div>
+          </div>
+        </div>
+     
+      </div>
 
  
     </div>

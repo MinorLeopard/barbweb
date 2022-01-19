@@ -12,7 +12,7 @@ import {
 // Footer component
 function Footer() {
   return (
-<footer class="py-6 bg-coolGray-800 text-coolGray-50 min-w-full">
+<footer class="py-6 bg-coolGray-800 text-coolGray-50">
 	<div class="container px-6 mx-auto space-y-6 divide-y divide-coolGray-400 md:space-y-12 divide-opacity-50">
 		<div class="grid grid-cols-12">
 			<div class="pb-6 col-span-full md:pb-0 md:col-span-6">
@@ -23,7 +23,7 @@ function Footer() {
 				</a>
 			</div>
 			<div class="col-span-6 text-center md:text-left md:col-span-3">
-				<p class="pb-1 text-lg font-medium">Reach Us</p>
+				<p class="pb-1 text-lg font-medium">Category</p>
 				<ul>
 					<li>
 						<a href="#" class="hover:dark:text-violet-400">Link</a>

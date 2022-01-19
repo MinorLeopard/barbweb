@@ -4,7 +4,6 @@ import {
   ServerIcon,
   UserCircleIcon,
 } from '@heroicons/react/solid'
-import Downloads from './Downloads'
 const Hero = () => {
   return (
     <div>
@@ -47,6 +46,35 @@ const Hero = () => {
         </div>
       </div>
 
+      <section class="bg-white pt-10">
+	<div class="grid md:grid-cols-3 gap-y-10 px-4 mt-20 gap-x-6 lg:px-40 md:px-">
+		<div class="bg-slate-800 flex flex-col items-center py-12 ">
+			<div class="mb-4">
+          <UserCircleIcon className="w-10 h-10" />
+			</div>
+            <div class="text-center">
+              <p class="text-5xl font-bold">0+</p>
+              <p class="font-semibold text-3xl">Downloads</p>
+            </div>
+		</div>
+		<div class="bg-slate-800 flex flex-col items-center py-12 ">
+			<div class="mb-4">
+				<LocationMarkerIcon class="w-10 h-10" />
+			</div>
+ <div class="text-center">
+              <p class="text-5xl font-bold">0+</p>
+              <p class=" text-3xl font-semibold">Locations</p>
+            </div>
+		</div>
+		<div class="bg-slate-800 flex flex-col items-center py-12 ">
+			<div class="mb-4">
+     <ServerIcon class="w-10 h-10" />
+			</div>
+		<p class="text-5xl font-bold">0+</p>
+    <p class="font-semibold text-3xl">Salons</p>
+		</div>
+	</div>
+</section>
 
  
     </div>
