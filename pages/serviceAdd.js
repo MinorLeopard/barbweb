@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import { CameraIcon } from "@heroicons/react/outline";
 import { services } from "../data";
-
+import Head from 'next/head';
 const Service = () => {
   const priceRef = useRef();
   const durationRef = useRef();
@@ -24,7 +24,29 @@ const Service = () => {
 
   return (
     <div className="flex flex-col   items-center justify-center  max-w-full min-w-max w-full  py-2  from-blue-300 via-blue-600 to-blue-900 min-h-screen , {} ">
-      <Navbar />
+       <Head>
+        <link rel="icon" href="/favicon.svg" />
+        <title>Service</title>
+        <meta http-equiv="content-language" content="en"></meta>
+        <meta charSet="UTF-8"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <meta name="keywords" content="BARB, BARB SALON SERVICES, BARB APP, BEAUTY"></meta>
+        <meta name="author" content="BARB"></meta>
+        <meta name="publisher" content="BARB"></meta>
+        <meta name="copyright" content="BARB"></meta>
+        <meta name="description" content="Barb is salon booking app"></meta>
+        <meta name="page-topic" content="Media"></meta>
+        <meta name="page-type" content="Beauty"></meta>
+        <meta name="audience" content="Everyone"></meta>
+        <meta name="robots" content="index, follow"></meta>
+        <meta property="og:title" content="BARB APP" />
+        <meta property="og:description" content="Barb is salon booking app" />
+        <meta property="og:image" content="/favicon.svg" />
+        <meta name="twitter:card" content="Barb is salon booking app" />
+        <meta name="twitter:site" content="WWW.barb.co.in" />
+        <meta name="twitter:creator" content="BARB" />
+        <meta name="theme-color" content="#31fb53"/>
+      </Head>
       <div className=" bg-gradient-to-r  max-w-full flex flex-col md:flex-row lg:items-start  items-center  justify-evenly min-w-max w-full min-h-screen ">
         <div class="w-full max-w-lg mt-10">
           <motion.div
