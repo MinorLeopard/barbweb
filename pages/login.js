@@ -60,6 +60,7 @@ const setup =  () =>{
         <meta name="msapplication-TileColor" content="indigo"/>
         <meta name="msapplication-navbutton-color" content="indigo"/>
         <meta name="apple-mobile-web-app-status-bar-style" content="indigo"/>
+        
       </Head>
       <div className=" bg-gradient-to-r  max-w-full flex  items-start  justify-center min-w-max w-full min-h-screen ">
         <div className="w-full max-w-lg mt-32">

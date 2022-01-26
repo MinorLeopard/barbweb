@@ -32,6 +32,7 @@ const ourteam = () => {
         <meta name="msapplication-TileColor" content="indigo"/>
         <meta name="msapplication-navbutton-color" content="indigo"/>
         <meta name="apple-mobile-web-app-status-bar-style" content="indigo"/>
+        
       </Head>
     <div className="pb-12 text-center">
         <h1 className="text-5xl text-gray-500 md:text-6xl lg:text-7xl font-heading">

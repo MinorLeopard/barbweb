@@ -1,7 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    font-family: 'Ubuntu';
+}
 @layer base {
   body {
     @apply h-screen bg-gradient-to-br from-[#0055ff] to-[rgb(0,153,255)] overflow-hidden;

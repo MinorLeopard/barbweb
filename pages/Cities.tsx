@@ -4,6 +4,7 @@ const Cities = () => {
     return (
         <>
          <Head>
+            
         <link rel="icon" href="/favicon.svg" />
         <title>Cities</title>
         <meta http-equiv="content-language" content="en"></meta>

@@ -51,6 +51,7 @@ const Service = () => {
         <meta name="msapplication-TileColor" content="indigo"/>
         <meta name="msapplication-navbutton-color" content="indigo"/>
         <meta name="apple-mobile-web-app-status-bar-style" content="indigo"/>
+        
       </Head>
       <div className=" bg-gradient-to-r  max-w-full flex flex-col md:flex-row lg:items-start  items-center  justify-evenly min-w-max w-full min-h-screen ">
         <div class="w-full max-w-lg mt-10">
