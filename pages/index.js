@@ -33,10 +33,10 @@ export default function Home() {
         <meta name="robots" content="index, follow"></meta>
         <meta property="og:title" content="BARB APP" />
         <meta property="og:description" content="Barb is salon booking app" />
-        <meta property="og:image" content="https://www.linkpicture.com/q/BARB.png" />
+        <meta property="og:image" content="https://www.linkpicture.com/q/BARB_1.png" />
         <meta name="twitter:title" content="Barb Salon Services"/>
         <meta name="twitter:description" content="Barb is an salon boking app"/>
-        <meta name="twitter:image" content="https://www.linkpicture.com/q/BARB.png"/>
+        <meta name="twitter:image" content="https://www.linkpicture.com/q/BARB_1.png"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:creator" content="BARB" />
         <meta name="theme-color" content="indigo"/>

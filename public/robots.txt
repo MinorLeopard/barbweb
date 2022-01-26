@@ -1,0 +1,6 @@
+Sitemap: https://www.barb.co.in/sitemap.xml
+
+User-agent: *
+Allow: /*
+
+Disallow: /api/*
