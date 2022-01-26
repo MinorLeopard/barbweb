@@ -20,13 +20,16 @@ const Cities = () => {
         <meta name="robots" content="index, follow"></meta>
         <meta property="og:title" content="BARB APP" />
         <meta property="og:description" content="Barb is salon booking app" />
-        <meta property="og:image" content="https://raw.githubusercontent.com/RishiPratap/barbweb/c450214abf3652fc7227bbdaa67ee75dcd1f6444/public/favicon.svg?token=ARKR7YPFLK4WDJIYYGU5UTDB6A2AU" />
+        <meta property="og:image" content="https://www.linkpicture.com/q/BARB.png" />
         <meta name="twitter:title" content="Barb Salon Services"/>
         <meta name="twitter:description" content="Barb is an salon boking app"/>
-        <meta name="twitter:image" content="https://raw.githubusercontent.com/RishiPratap/barbweb/c450214abf3652fc7227bbdaa67ee75dcd1f6444/public/favicon.svg?token=ARKR7YPFLK4WDJIYYGU5UTDB6A2AU"/>
+        <meta name="twitter:image" content="https://www.linkpicture.com/q/BARB.png"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:creator" content="BARB" />
-        <meta name="theme-color" content="#31fb53"/>
+        <meta name="theme-color" content="indigo"/>
+        <meta name="msapplication-TileColor" content="indigo"/>
+        <meta name="msapplication-navbutton-color" content="indigo"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="indigo"/>
       </Head>
 <div className="w-screen mt-10">
                 <nav className="bg-white shadow-lg">
