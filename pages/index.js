@@ -17,7 +17,7 @@ export default function Home() {
     <div className="">
 
       <Head>
-        <title>BARB💇‍♂️</title>
+        <title>Official website | BARB💇‍♂️</title>
         <link rel="icon" href="/favicon.svg" />
         <meta http-equiv="content-language" content="en"></meta>
         <meta charSet="UTF-8"></meta>
@@ -43,6 +43,7 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="indigo"/>
         <meta name="msapplication-navbutton-color" content="indigo"/>
         <meta name="apple-mobile-web-app-status-bar-style" content="indigo"/>
+       
       </Head>
 
 

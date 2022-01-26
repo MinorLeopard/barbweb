@@ -30,6 +30,7 @@ const contactus = () => {
         <meta name="msapplication-TileColor" content="indigo"/>
         <meta name="msapplication-navbutton-color" content="indigo"/>
         <meta name="apple-mobile-web-app-status-bar-style" content="indigo"/>
+        
       </Head>
             <Contact/>
         </div>

@@ -5,6 +5,7 @@ const BugReport = () => {
         
         <div>
              <Head>
+       
         <link rel="icon" href="/favicon.svg" />
         <title>Bugs Report</title>
         <meta http-equiv="content-language" content="en"></meta>
