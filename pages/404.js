@@ -6,8 +6,8 @@ const PageNotFound = () => {
         <div id="wrapper">
          <Head>
             <title>404 Not Found </title>
-            <link rel="icon" href="/favicon.png" />
-            <link rel="shortcut-icon" type='image/png' href='https://www.linkpicture.com/q/shortcut.png'/>
+            <link rel="icon" type='image/png' href="https://www.linkpicture.com/q/favicon_18.png" />
+            <link rel="shortcut-icon" type='image/png' href='https://www.linkpicture.com/q/favicon_18.png'/>
             <link rel='preconnect' href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'/>
       <link href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap' rel='stylesheet'/>
         </Head>
