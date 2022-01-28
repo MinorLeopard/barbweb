@@ -21,6 +21,7 @@ export default function Home() {
       <link href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap' rel='stylesheet'/>
         <title>Official website | BARB💇‍♂️</title>
         <link rel="icon" href="/favicon.png" />
+        <link rel="shortcut-icon" type='image/png' href='/link.png'/>
         <meta httpEquiv="content-language" content="en"></meta>
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
