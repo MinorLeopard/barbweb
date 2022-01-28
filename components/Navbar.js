@@ -34,12 +34,12 @@ const Navbar = () => {
               Cities
             </li>
           </a>
-          <a href="">
+          <a href="/Career">
             <li className="transition-all duration-150 transform hover:scale-105 hover:underline">
               Career
             </li>
           </a>
-          <a href="">
+          <a href="/Press">
             <li className="transition-all duration-150 transform hover:scale-105 hover:underline">
               Press
             </li>

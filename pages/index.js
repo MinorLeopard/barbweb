@@ -17,9 +17,11 @@ export default function Home() {
     <div className="">
 
       <Head>
+      <link rel='preconnect' href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'/>
+      <link href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap' rel='stylesheet'/>
         <title>Official website | BARB💇‍♂️</title>
-        <link rel="icon" href="/favicon.svg" />
-        <meta http-equiv="content-language" content="en"></meta>
+        <link rel="icon" href="/favicon.png" />
+        <meta httpEquiv="content-language" content="en"></meta>
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <meta name="keywords" content="BARB, BARB SALON SERVICES, BARB APP, BEAUTY"></meta>
@@ -43,6 +45,9 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="indigo"/>
         <meta name="msapplication-navbutton-color" content="indigo"/>
         <meta name="apple-mobile-web-app-status-bar-style" content="indigo"/>
+        <meta itemProp="name" content="BARB"/>
+        <meta itemProp="description" content="Barb is salon booking app"/>
+        <meta itemProp="image" content="https://www.linkpicture.com/q/BARB.png"></meta>
        
       </Head>
 

@@ -6,6 +6,9 @@ const PageNotFound = () => {
         <div id="wrapper">
          <Head>
             <title>404 Not Found </title>
+            <link rel="icon" href="/favicon.png" />
+            <link rel='preconnect' href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'/>
+      <link href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap' rel='stylesheet'/>
         </Head>
         <div id="info">
                 <center><h2>This page could not be found</h2></center>

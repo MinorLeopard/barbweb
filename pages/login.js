@@ -34,9 +34,11 @@ const setup =  () =>{
   return (
     <div className="flex flex-col  items-center  max-w-full min-w-max w-full  py-2  from-blue-300 via-blue-600 to-blue-900 min-h-screen ">
      <Head>
-        <link rel="icon" href="/favicon.svg" />
+     <link rel='preconnect' href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'/>
+      <link href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap' rel='stylesheet'/>
+     <link rel="icon" href="/favicon.png" />
         <title>Login</title>
-        <meta http-equiv="content-language" content="en"></meta>
+        <meta httpEquiv="content-language" content="en"></meta>
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <meta name="keywords" content="BARB, BARB SALON SERVICES, BARB APP, BEAUTY"></meta>
