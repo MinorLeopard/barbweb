@@ -12,7 +12,7 @@ const Features = () => {
         <p className="mt-5 text-sm text-white sm:text-base">Dimension of reality that makes change possible and understandable. An indefinite and homogeneous environment in which natural events and human existence take place.</p>
       </div>
       <div className="relative hidden sm:block sm:w-1/3 lg:w-3/5">
-        <img src="/images/object/10.png" className="max-w-xs m-auto md:max-w-sm" />
+        <img src="/images/object/10.png" className="max-w-xs m-auto md:max-w-sm" alt="image"/>
       </div>
     </div>
   </div>
@@ -29,7 +29,7 @@ const Features = () => {
         <p className="mt-5 text-sm text-gray-900 sm:text-base ">Dimension of reality that makes change possible and understandable. An indefinite and homogeneous environment in which natural events and human existence take place.</p>
       </div>
       <div className="relative hidden sm:block sm:w-1/3 lg:w-3/5">
-        <img src="/images/object/10.png" className="max-w-xs m-auto md:max-w-sm" />
+        <img src="/images/object/10.png" className="max-w-xs m-auto md:max-w-sm" alt="image"/>
       </div>
     </div>
   </div>
