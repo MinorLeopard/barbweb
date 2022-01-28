@@ -8,7 +8,7 @@ const BugReport = () => {
              <link rel='preconnect' href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'/>
       <link href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap' rel='stylesheet'/>
         <link rel="icon" href="/favicon.png" />
-        <link rel="shortcut-icon" type='image/png' href='/link.png'/>
+        <link rel="shortcut-icon" type='image/png' href='https://www.linkpicture.com/q/shortcut.png'/>
         <title>Bugs Report</title>
         <meta httpEquiv="content-language" content="en"></meta>
         <meta charSet="UTF-8"></meta>
