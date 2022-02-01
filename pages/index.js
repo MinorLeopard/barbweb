@@ -19,17 +19,17 @@ export default function Home() {
       <Head>
       <link rel='preconnect' href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'/>
       <link href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap' rel='stylesheet'/>
-        <title>Official website | BARB</title>
+        <title>Official website | BARB | BARB SALON MANAGER</title>
        <link rel="icon" type='image/png' href="https://www.linkpicture.com/q/favicon_18.png" />
             <link rel="shortcut-icon" type='image/png' href='https://www.linkpicture.com/q/favicon_18.png'/>
         <meta httpEquiv="content-language" content="en"></meta>
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <meta name="keywords" content="BARB, BARB SALON SERVICES, BARB APP, BEAUTY"></meta>
+        <meta name="keywords" content="BARB, BARB SALON SERVICES, BARB APP, BEAUTY,BARB SALON MANAGER"></meta>
         <meta name="author" content="BARB"></meta>
         <meta name="publisher" content="BARB"></meta>
         <meta name="copyright" content="BARB"></meta>
-        <meta name="description" content="Barb is salon booking app"></meta>
+        <meta name="description" content="Barb is salon booking app.Install BARB SALON MANAGER to register your beauty salon"></meta>
         <meta name="page-topic" content="Media"></meta>
         <meta name="page-type" content="Beauty"></meta>
         <meta name="audience" content="Everyone"></meta>
@@ -54,7 +54,6 @@ export default function Home() {
 
 
       <div>
-        <Navigation/>
         <Hero />
         <Downloads/>
         <OurStory/>

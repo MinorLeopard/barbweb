@@ -31,12 +31,13 @@
 // }
 
 // export default OurStory
-
+import Story from '../images/bg-story.jpeg';
+import Img from 'next/image';
 const OurStory = () => {
     return (
 
 <div className="relative h-screen overflow-hidden bg-slate-800">
-    <img src="images/bg-story.jpeg" className="absolute object-cover w-full h-full" alt="banner"/>
+    <Img src={Story} className="absolute object-cover w-full h-full" alt="banner"/>
     <div className="absolute inset-0 bg-black opacity-25">
     </div>
     <div className="container relative z-10 flex items-center w-4/5 py-16 mx-auto my-24 border-4 border-white rounded-lg md:my-32">
