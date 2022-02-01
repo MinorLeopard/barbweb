@@ -17,6 +17,7 @@ export default function Home() {
     <div className="">
 
       <Head>
+      <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml"></link>
       <link rel='preconnect' href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'/>
       <link href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap' rel='stylesheet'/>
         <title>Official website | BARB | BARB SALON MANAGER</title>
