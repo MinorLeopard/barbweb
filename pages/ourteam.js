@@ -10,11 +10,11 @@ const ourteam = () => {
       <link href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap' rel='stylesheet'/>
         <link rel="icon" href="/favicon.png" />
         <link rel="shortcut-icon" type='image/png' href='https://www.linkpicture.com/q/shortcut.png'/>
-        <title></title>
+        <title>Team</title>
         <meta httpEquiv="content-language" content="en"></meta>
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <meta name="keywords" content="BARB, BARB SALON SERVICES, BARB APP, BEAUTY"></meta>
+        <meta name="keywords" content="BARB, BARB SALON SERVICES, BARB APP, BEAUTY,BARB SALON MANAGER"></meta>
         <meta name="author" content="BARB"></meta>
         <meta name="publisher" content="BARB"></meta>
         <meta name="copyright" content="BARB"></meta>

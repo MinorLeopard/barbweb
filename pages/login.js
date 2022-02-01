@@ -42,7 +42,7 @@ const setup =  () =>{
         <meta httpEquiv="content-language" content="en"></meta>
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <meta name="keywords" content="BARB, BARB SALON SERVICES, BARB APP, BEAUTY"></meta>
+        <meta name="keywords" content="BARB, BARB SALON SERVICES, BARB APP, BEAUTY,BARB SALON MANAGER"></meta>
         <meta name="author" content="BARB"></meta>
         <meta name="publisher" content="BARB"></meta>
         <meta name="copyright" content="BARB"></meta>
