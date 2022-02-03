@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Head from 'next/head';
+import {Fade} from 'react-awesome-reveal';
 const Cities = () => {
     return (
         <>
@@ -29,12 +30,13 @@ const Cities = () => {
         <meta name="twitter:image" content="https://www.linkpicture.com/q/BARB_1.png"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:creator" content="BARB" />
-        <meta name="theme-color" content="indigo"/>
-        <meta name="msapplication-TileColor" content="indigo"/>
-        <meta name="msapplication-navbutton-color" content="indigo"/>
-        <meta name="apple-mobile-web-app-status-bar-style" content="indigo"/>
+        <meta name="theme-color" content="lightgreen"/>
+        <meta name="msapplication-TileColor" content="lightgreen"/>
+        <meta name="msapplication-navbutton-color" content="lightgreen"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="lightgreen"/>
       </Head>
 <div className="w-screen mt-10">
+  <Fade>
                 <nav className="bg-white shadow-lg">
                     <div className="items-center justify-between px-8 py-2 md:flex md:px-12">
                         <div className="flex items-center justify-between"></div>
@@ -146,6 +148,7 @@ const Cities = () => {
                         </div>
                     </div>
                 </div>
+                </Fade>
             </div>
             </>
 

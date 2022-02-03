@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import { CameraIcon } from "@heroicons/react/outline";
 import { services } from "../data";
 import Head from 'next/head';
+import {Fade} from 'react-awesome-reveal';
 const Service = () => {
   const priceRef = useRef();
   const durationRef = useRef();
@@ -50,13 +51,14 @@ const Service = () => {
         <meta name="twitter:image" content="https://www.linkpicture.com/q/BARB_1.png"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:creator" content="BARB" />
-        <meta name="theme-color" content="indigo"/>
-        <meta name="msapplication-TileColor" content="indigo"/>
-        <meta name="msapplication-navbutton-color" content="indigo"/>
-        <meta name="apple-mobile-web-app-status-bar-style" content="indigo"/>
+        <meta name="theme-color" content="lightgreen"/>
+        <meta name="msapplication-TileColor" content="lightgreen"/>
+        <meta name="msapplication-navbutton-color" content="lightgreen"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="lightgreen"/>
         
       </Head>
       <div className=" bg-gradient-to-r  max-w-full flex flex-col md:flex-row lg:items-start  items-center  justify-evenly min-w-max w-full min-h-screen ">
+        <Fade>
         <div class="w-full max-w-lg mt-10">
           <motion.div
             className="bg-white p-3 rounded-xl flex justify-center flex-col items-center "
@@ -183,6 +185,7 @@ const Service = () => {
               );
             })}
         </div>
+        </Fade>
       </div>
       <div></div>
     </div>

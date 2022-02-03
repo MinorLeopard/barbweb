@@ -11,7 +11,7 @@ import Buzz from "../components/TheBuzz"
 import TheBuzz from '../components/TheBuzz'
 import Navigation from "../components/NewNavbar/Navigation"
 import Downloads from "../components/Downloads"
-
+import { Fade } from "react-awesome-reveal";
 export default function Home() {
   return (
     <div className="">
@@ -42,10 +42,10 @@ export default function Home() {
         <meta name="twitter:image" content="https://www.linkpicture.com/q/BARB_1.png"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:creator" content="BARB" />
-        <meta name="theme-color" content="indigo"/>
-        <meta name="msapplication-TileColor" content="indigo"/>
-        <meta name="msapplication-navbutton-color" content="indigo"/>
-        <meta name="apple-mobile-web-app-status-bar-style" content="indigo"/>
+        <meta name="theme-color" content="lightgreen"/>
+        <meta name="msapplication-TileColor" content="lightgreen"/>
+        <meta name="msapplication-navbutton-color" content="lightgreen"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="lightgreen"/>
         <meta itemProp="name" content="BARB"/>
         <meta itemProp="description" content="Barb is salon booking app"/>
         <meta itemProp="image" content="https://www.linkpicture.com/q/BARB.png"></meta>
@@ -54,12 +54,22 @@ export default function Home() {
 
 
       <div>
+      <Fade>
         <Hero />
+        </Fade>
+        <Fade>
         <Downloads/>
+        </Fade>
+        <Fade>
         <OurStory/>
+        </Fade>
+        <Fade>
         <Features />
+        </Fade>
         {/* <TheBuzz/> */}
+        <Fade>
         <Footer />
+        </Fade>
       </div>
 
     </div>
