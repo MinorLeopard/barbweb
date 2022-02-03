@@ -36,13 +36,13 @@ import Img from 'next/image';
 const OurStory = () => {
     return (
 
-<div className="relative h-screen overflow-hidden bg-slate-800">
-    <Img src={Story} className="absolute object-cover w-full h-full" alt="banner"/>
-    <div className="absolute inset-0 bg-black opacity-25">
+<div className="relative h-screen overflow-hidden bg-slate-800 p-3">
+    <Img src={Story} className="absolute object-cover w-full h-full" layout='fill' alt="banner"/>
+    <div className="absolute inset-0 bg-black opacity-50">
     </div>
-    <div className="container relative z-10 flex items-center w-4/5 py-16 mx-auto my-24 border-4 border-white rounded-lg md:my-32">
+    <div className="container relative z-10 flex items-center  py-5 mx-auto my-16 border-4 border-white rounded-lg md:my-32">
         <div className="relative z-10 flex flex-col items-center justify-between w-full">
-            <p className="flex flex-col items-center text-6xl font-extrabold text-center text-white md:text-8xl">
+            <p className="flex flex-col items-center text-5xl font-extrabold text-center text-white md:text-8xl">
                 OUR STORY
             </p>
             <p className="flex flex-col items-center max-w-lg mt-6 text-lg font-extrabold text-center text-white">

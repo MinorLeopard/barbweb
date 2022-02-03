@@ -11,6 +11,10 @@ const PageNotFound = () => {
             <link rel='preconnect' href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'/>
       <link href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap' rel='stylesheet'/>
       <meta name="keywords" content="BARB, BARB SALON SERVICES, BARB APP, BEAUTY,BARB SALON MANAGER"></meta>
+      <meta name="theme-color" content="red"/>
+        <meta name="msapplication-TileColor" content="red"/>
+        <meta name="msapplication-navbutton-color" content="red"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="red"/>
         </Head>
         <div id="info">
                 <center><h2>This page could not be found</h2></center>
