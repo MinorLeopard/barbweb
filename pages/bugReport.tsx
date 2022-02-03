@@ -1,5 +1,5 @@
 import Head from 'next/head';
-
+import {Fade} from 'react-awesome-reveal';
 const BugReport = () => {
     return (
         
@@ -30,13 +30,13 @@ const BugReport = () => {
         <meta name="twitter:image" content="https://www.linkpicture.com/q/BARB_1.png"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:creator" content="BARB" />
-        <meta name="theme-color" content="indigo"/>
-        <meta name="msapplication-TileColor" content="indigo"/>
-        <meta name="msapplication-navbutton-color" content="indigo"/>
-        <meta name="apple-mobile-web-app-status-bar-style" content="indigo"/>
+        <meta name="theme-color" content="lightgreen"/>
+        <meta name="msapplication-TileColor" content="lightgreen"/>
+        <meta name="msapplication-navbutton-color" content="lightgreen"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="lightgreen"/>
       </Head>
             <div className="pt-2 font-mono bg-white ">
-
+            <Fade>
             <div className="w-full max-w-2xl p-6 mx-auto inputs">
                 <h2 className="text-2xl text-gray-900">Bug Report</h2>
                 <form className="pt-4 mt-6 border-t border-gray-400"/>
@@ -96,6 +96,7 @@ const BugReport = () => {
                 <form/>
             </div>
         </div>
+        </Fade>
     </div>
 </div>
 

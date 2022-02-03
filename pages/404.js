@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head';
-
+import { Fade } from "react-awesome-reveal";
 const PageNotFound = () => {
     return (
         <div id="wrapper">
@@ -17,9 +17,9 @@ const PageNotFound = () => {
         <meta name="apple-mobile-web-app-status-bar-style" content="red"/>
         </Head>
         <div id="info">
-                <center><h2>This page could not be found</h2></center>
+        <Fade><center><h2>This page could not be found</h2></center></Fade>
             </div>
-            <center><img src="https://i.imgur.com/qIufhof.png" alt='Not Found' /></center>
+            <Fade><center><img src="https://i.imgur.com/qIufhof.png" alt='Not Found' /></center></Fade>
         </div>
     )
 }
