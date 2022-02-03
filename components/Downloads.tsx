@@ -1,8 +1,8 @@
 const Downloads = () => {
     return (
 <section className="text-gray-600 body-font">
-  <div className="container px-5 mx-auto">
-    <div className="flex flex-col w-full mb-20 text-center"></div>
+  <div className="container px-5 mx-auto p-10">
+    <div className="flex flex-col w-full mb-10 text-center"></div>
     <div className="flex flex-wrap -m-4 text-center">
       <div className="w-full p-4 md:w-1/4 sm:w-1/2">
         <div className="px-4 py-6 border-2 border-gray-200 rounded-lg">

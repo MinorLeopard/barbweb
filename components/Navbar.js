@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="p-3 sticky bg-white mb-2 z-[99] top-0  flex w-full justify-between md:justify-evenly items-center   ">
       <div>
         <Link href="/">
-          <p className="text-4xl cursor-pointer font-[Raleway]">BARB </p>
+          <p className="text-4xl cursor-pointer">BARB </p>
         </Link>
       </div>
       <div>
