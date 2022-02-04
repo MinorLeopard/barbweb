@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Head from 'next/head';
 import {Fade} from 'react-awesome-reveal';
+import "@fontsource/ubuntu"
 const Cities = () => {
     return (
         <>

@@ -1,8 +1,10 @@
 import 'tailwindcss/tailwind.css'
+import "@fontsource/ubuntu"
 import Navigation from '../components/Navbar'
-import '../styles/style.css'
+import '../styles/style.scss'
 import { useEffect,useState } from 'react'
 import Loader from '../components/loader'
+import { Offline, Online } from "react-detect-offline";
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(true);
       
@@ -24,8 +26,11 @@ function MyApp({ Component, pageProps }) {
     return <div><Loader/></div>
 }
  else{ return <>
+ <Offline><Loader/></Offline>
+  <Online>
   <Navigation/>
   <Component {...pageProps} />
+  </Online>
   </>}
 }
 

@@ -1,7 +1,11 @@
 module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: false,
+  fontFamily: {
+    'display': ['Ubuntu'],
+    'body': ['Ubuntu'],
+  }, // or 'media' or 'class'
   theme: {
     extend: {
       backgroundImage: {

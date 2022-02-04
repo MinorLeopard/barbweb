@@ -5,6 +5,7 @@ import { CameraIcon } from "@heroicons/react/outline";
 import { services } from "../data";
 import Head from 'next/head';
 import {Fade} from 'react-awesome-reveal';
+import "@fontsource/ubuntu"
 const Service = () => {
   const priceRef = useRef();
   const durationRef = useRef();

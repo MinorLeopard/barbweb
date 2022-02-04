@@ -12,7 +12,14 @@ import TheBuzz from '../components/TheBuzz'
 import Navigation from "../components/NewNavbar/Navigation"
 import Downloads from "../components/Downloads"
 import { Fade } from "react-awesome-reveal";
+import "@fontsource/ubuntu";
+//const ModalVideo = require('react-modal-video');
+import ModalVideo from 'react-modal-video';
+import {useState} from 'react'
+import PlayCircleFilledWhiteIcon from '@mui/icons-material/PlayCircleFilledWhite';
+import Fab from '@mui/material/Fab';
 export default function Home() {
+  const [isOpen, setOpen] = useState(false);
   return (
     <div className="">
 
@@ -20,8 +27,8 @@ export default function Home() {
       <link rel='preconnect' href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'/>
       <link href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap' rel='stylesheet'/>
         <title>Official website | BARB | BARB SALON MANAGER</title>
-       <link rel="icon" type='image/png' href="https://www.linkpicture.com/q/favicon_18.png" />
-            <link rel="shortcut-icon" type='image/png' href='https://www.linkpicture.com/q/favicon_18.png'/>
+        <link rel="icon" type='image/png' href="https://www.linkpicture.com/q/favicon_18.png" />
+        <link rel="shortcut-icon" type='image/png' href='https://www.linkpicture.com/q/favicon_18.png'/>
         <meta httpEquiv="content-language" content="en"></meta>
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
@@ -48,7 +55,7 @@ export default function Home() {
         <meta name="apple-mobile-web-app-status-bar-style" content="lightgreen"/>
         <meta itemProp="name" content="BARB"/>
         <meta itemProp="description" content="Barb is salon booking app"/>
-        <meta itemProp="image" content="https://www.linkpicture.com/q/BARB.png"></meta>
+        <meta itemProp="image" content="https://www.linkpicture.com/q/BARB_1.png"></meta>
        
       </Head>
 
@@ -70,6 +77,10 @@ export default function Home() {
         <Fade>
         <Footer />
         </Fade>
+        <Fab className="fixed float-right position-absolute bottom-6 right-5">
+  			<ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Ra1ERY1cczg" onClose={() => setOpen(false)} />
+        <PlayCircleFilledWhiteIcon htmlColor='red' onClick={()=> setOpen(true)}/>
+			</Fab>
       </div>
 
     </div>
