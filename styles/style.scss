@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import '../node_modules/react-modal-video/scss/modal-video.scss';
 body{
     font-family: 'Ubuntu';
+    overflow-x: hidden;
 }

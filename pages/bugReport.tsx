@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import {Fade} from 'react-awesome-reveal';
+import "@fontsource/ubuntu"
 const BugReport = () => {
     return (
         

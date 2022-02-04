@@ -2,6 +2,7 @@ import CardComponent from "../components/CardComponent"
 import CardDisplay from "../components/CardDisplay"
 import techTeamDisplay from "../components/techTeamDisplay"
 import Head from 'next/head';
+import "@fontsource/ubuntu"
 const ourteam = () => {
     return (
 <section className="max-w-6xl px-4 py-12 mx-auto sm:px-6 lg:px-4">

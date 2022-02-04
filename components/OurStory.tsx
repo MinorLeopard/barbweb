@@ -33,6 +33,7 @@
 // export default OurStory
 import Story from '../images/bg-story.jpeg';
 import Img from 'next/image';
+import "@fontsource/ubuntu"
 const OurStory = () => {
     return (
 
@@ -40,15 +41,15 @@ const OurStory = () => {
     <Img src={Story} className="absolute object-cover w-full h-full" layout='fill' alt="banner"/>
     <div className="absolute inset-0 bg-black opacity-50">
     </div>
-    <div className="container relative z-10 flex items-center mx-auto my-6 border-4 border-white rounded-lg md:my-16">
+    <div className="container relative z-10 flex items-center mx-auto my-4 border-4 border-white rounded-lg md:my-12">
         <div className="relative z-10 flex flex-col items-center justify-between w-full">
             <p className="p-3 flex flex-col items-center text-4xl font-extrabold text-center text-white md:text-6xl">
                 OUR STORY
             </p>
-            <p className="p-3 flex flex-col items-center max-w-lg mt-3 text-lg font-extrabold text-center text-white">
+            <p className="p-5 flex flex-col items-center max-w-lg mt-2 text-lg font-extrabold text-center text-white sm:text-2xl">
                Our company began in Patna, Bihar as a small startup covering 47 salons in Patna, providing them with the opportunity to digitize themselves. We created a platform for the common man to pick what he wants in his next appointment at a salon and trying to revolutionize the salon industry and make user experience easy while improving the lifestyle of the people.
             </p>
-            <a href="#" className="block px-4 py-3 mt-10 text-lg font-bold text-white uppercase bg-gray-800 hover:bg-gray-900 animate-bounce">
+            <a href="#" className="m-5 block px-4 py-3 mt-5 text-lg font-bold text-white uppercase bg-gray-800 hover:bg-gray-900">
                 join us 
             </a>
         </div>

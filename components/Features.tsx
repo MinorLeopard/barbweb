@@ -1,3 +1,9 @@
+import Structure from '../images/Organized.svg';
+import Rating from '../images/rating.svg';
+import Variety from '../images/variety.svg';
+import Market from '../images/market.svg';
+import Img from 'next/image';
+import "@fontsource/ubuntu"
 const Features = () => {
   return (
 <main>
@@ -9,10 +15,10 @@ const Features = () => {
         <h1 className="flex flex-col text-5xl font-black leading-none text-white uppercase font-bebas-neue dark:text-white sm:text-6xl">
           Organised structure
         </h1>
-        <p className="mt-5 text-sm text-white sm:text-base">Dimension of reality that makes change possible and understandable. An indefinite and homogeneous environment in which natural events and human existence take place.</p>
+        <p className="mt-5 text-2xl text-white sm:text-base sm:text-2xl">Dimension of reality that makes change possible and understandable. An indefinite and homogeneous environment in which natural events and human existence take place.</p>
       </div>
       <div className="relative hidden sm:block sm:w-1/3 lg:w-3/5">
-        <img src="/images/object/10.png" className="max-w-xs m-auto md:max-w-sm" alt="image"/>
+        <Img src={Structure} layout='fill' className="max-w-xs m-auto md:max-w-sm" alt="image"/>
       </div>
     </div>
   </div>
@@ -26,10 +32,10 @@ const Features = () => {
         <h1 className="flex flex-col text-5xl font-black leading-none text-gray-800 uppercase dark:text-white sm:text-6xl">
         Reviews and rating system
         </h1>
-        <p className="mt-5 text-sm text-gray-900 sm:text-base ">Dimension of reality that makes change possible and understandable. An indefinite and homogeneous environment in which natural events and human existence take place.</p>
+        <p className="mt-5 text-2xl text-gray-900 sm:text-base sm:text-2xl">Dimension of reality that makes change possible and understandable. An indefinite and homogeneous environment in which natural events and human existence take place.</p>
       </div>
       <div className="relative hidden sm:block sm:w-1/3 lg:w-3/5">
-        <img src="/images/object/10.png" className="max-w-xs m-auto md:max-w-sm" alt="image"/>
+        <Img src={Rating} layout="fill" className="max-w-xs m-auto md:max-w-sm" alt="image"/>
       </div>
     </div>
   </div>
@@ -43,10 +49,10 @@ const Features = () => {
         <h1 className="flex flex-col text-5xl font-black leading-none text-white uppercase font-bebas-neue dark:text-white sm:text-6xl">
         Providing varitey
         </h1>
-        <p className="mt-5 text-sm text-white sm:text-base">Dimension of reality that makes change possible and understandable. An indefinite and homogeneous environment in which natural events and human existence take place.</p>
+        <p className="mt-5 text-2xl text-white sm:text-base sm:text-2xl">Dimension of reality that makes change possible and understandable. An indefinite and homogeneous environment in which natural events and human existence take place.</p>
       </div>
       <div className="relative hidden sm:block sm:w-1/3 lg:w-3/5">
-        <img src="/images/object/10.png" className="max-w-xs m-auto md:max-w-sm" />
+        <Img src={Variety} layout="fill" className="max-w-xs m-auto md:max-w-sm" />
       </div>
     </div>
   </div>
@@ -60,10 +66,10 @@ const Features = () => {
         <h1 className="flex flex-col text-5xl font-black leading-none text-gray-800 uppercase font-bebas-neue dark:text-white sm:text-6xl">
         Providing a better market
         </h1>
-        <p className="mt-5 text-sm text-gray-900 sm:text-base ">Dimension of reality that makes change possible and understandable. An indefinite and homogeneous environment in which natural events and human existence take place.</p>
+        <p className="mt-5 text-2xl text-gray-900 sm:text-base sm:text-2xl">Dimension of reality that makes change possible and understandable. An indefinite and homogeneous environment in which natural events and human existence take place.</p>
       </div>
       <div className="relative hidden sm:block sm:w-1/3 lg:w-3/5">
-        <img src="/images/object/10.png" className="max-w-xs m-auto md:max-w-sm" />
+        <Img src={Market} layout="fill" className="max-w-xs m-auto md:max-w-sm" />
       </div>
     </div>
   </div>

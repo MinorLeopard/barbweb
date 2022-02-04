@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import { useRef } from 'react'
 import { useRouter } from 'next/router'
 import React, {useState} from 'react';
+import "@fontsource/ubuntu"
 const Login = () => {
   const router = useRouter()
   const [register,setregister] = useState({
