@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head';
+import Img from 'next/image';
 import { Fade } from "react-awesome-reveal";
+import Notfound from '../images/404.svg';
 import "@fontsource/ubuntu";
 const PageNotFound = () => {
     return (
@@ -18,9 +20,8 @@ const PageNotFound = () => {
         <meta name="apple-mobile-web-app-status-bar-style" content="red"/>
         </Head>
         <div id="info">
-        <Fade><center><h2>This page could not be found</h2></center></Fade>
+            <Fade><center><Img src={Notfound} alt="404 not found" height="500px" width="500px"/></center></Fade>
             </div>
-            <Fade><center><img src="https://i.imgur.com/qIufhof.png" alt='Not Found' /></center></Fade>
         </div>
     )
 }
