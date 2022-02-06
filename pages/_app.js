@@ -8,6 +8,8 @@ import { Offline, Online } from "react-detect-offline";
 import ModalVideo from 'react-modal-video';
 import PlayCircleFilledWhiteIcon from '@mui/icons-material/PlayCircleFilledWhite';
 import Fab from '@mui/material/Fab';
+import Img from 'next/image';
+import Off from '../images/offline.svg';
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(true);
   const [isOpen, setOpen] = useState(false);    
@@ -29,11 +31,11 @@ function MyApp({ Component, pageProps }) {
     return <div><Loader/></div>
 }
  else{ return <>
- <Offline><Loader/></Offline>
+ <Offline><Loader/><Img src={Off} alt="offline" layout='fill' loading='eager' /></Offline>
   <Online>
   <Navigation/>
   <Component {...pageProps} />
-  <Fab className="sticky float-right position-absolute bottom-6 right-5">
+  <Fab id="play" className="float-right position-absolute bottom-6 right-5">
   			<ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Ra1ERY1cczg" onClose={() => setOpen(false)} />
         <PlayCircleFilledWhiteIcon htmlColor='red' onClick={()=> setOpen(true)}/>
 			</Fab>
