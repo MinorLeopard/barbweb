@@ -5,9 +5,12 @@ import '../styles/style.scss'
 import { useEffect,useState } from 'react'
 import Loader from '../components/loader'
 import { Offline, Online } from "react-detect-offline";
+import ModalVideo from 'react-modal-video';
+import PlayCircleFilledWhiteIcon from '@mui/icons-material/PlayCircleFilledWhite';
+import Fab from '@mui/material/Fab';
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(true);
-      
+  const [isOpen, setOpen] = useState(false);    
   useEffect(() => {
     // Loading function to load data or 
     // fake it using setTimeout;
@@ -30,6 +33,10 @@ function MyApp({ Component, pageProps }) {
   <Online>
   <Navigation/>
   <Component {...pageProps} />
+  <Fab className="sticky float-right position-absolute bottom-6 right-5">
+  			<ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Ra1ERY1cczg" onClose={() => setOpen(false)} />
+        <PlayCircleFilledWhiteIcon htmlColor='red' onClick={()=> setOpen(true)}/>
+			</Fab>
   </Online>
   </>}
 }

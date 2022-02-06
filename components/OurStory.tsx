@@ -41,9 +41,9 @@ const OurStory = () => {
     <Img src={Story} className="absolute object-cover w-full h-full" layout='fill' alt="banner"/>
     <div className="absolute inset-0 bg-black opacity-50">
     </div>
-    <div className="container relative z-10 flex items-center mx-auto my-4 border-4 border-white rounded-lg md:my-12">
+    <div className="container relative z-10 flex items-center mx-auto my-4 border-4 border-white rounded-lg md:my-6">
         <div className="relative z-10 flex flex-col items-center justify-between w-full">
-            <p className="p-3 flex flex-col items-center text-4xl font-extrabold text-center text-white md:text-6xl">
+            <p className="p-2 flex flex-col items-center text-4xl font-extrabold text-center text-white md:text-6xl">
                 OUR STORY
             </p>
             <p className="p-5 flex flex-col items-center max-w-lg mt-2 text-lg font-extrabold text-center text-white sm:text-2xl">

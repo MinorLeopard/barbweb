@@ -13,13 +13,8 @@ import Navigation from "../components/NewNavbar/Navigation"
 import Downloads from "../components/Downloads"
 import { Fade } from "react-awesome-reveal";
 import "@fontsource/ubuntu";
-//const ModalVideo = require('react-modal-video');
-import ModalVideo from 'react-modal-video';
 import {useState} from 'react'
-import PlayCircleFilledWhiteIcon from '@mui/icons-material/PlayCircleFilledWhite';
-import Fab from '@mui/material/Fab';
 export default function Home() {
-  const [isOpen, setOpen] = useState(false);
   return (
     <div className="">
 
@@ -77,10 +72,6 @@ export default function Home() {
         <Fade>
         <Footer />
         </Fade>
-        <Fab className="fixed float-right position-absolute bottom-6 right-5">
-  			<ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Ra1ERY1cczg" onClose={() => setOpen(false)} />
-        <PlayCircleFilledWhiteIcon htmlColor='red' onClick={()=> setOpen(true)}/>
-			</Fab>
       </div>
 
     </div>
