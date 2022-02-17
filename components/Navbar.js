@@ -28,20 +28,14 @@ const Navbar = () => {
         </div>
 
         <ul className="hidden space-x-5 md:flex">
-
+        <a href="/salons">
+            <li className="transition-all duration-150 transform hover:scale-105 hover:underline">
+              Salons
+            </li>
+          </a>
           <a href="/Cities">
             <li className="transition-all duration-150 transform hover:scale-105 hover:underline">
               Cities
-            </li>
-          </a>
-          <a href="/Career">
-            <li className="transition-all duration-150 transform hover:scale-105 hover:underline">
-              Career
-            </li>
-          </a>
-          <a href="/Press">
-            <li className="transition-all duration-150 transform hover:scale-105 hover:underline">
-              Press
             </li>
           </a>
           <a href="/bugReport">
