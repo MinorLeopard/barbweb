@@ -7,3 +7,9 @@ body{
 #play{
     position:fixed;
 }
+#state{
+   position: relative;
+   left: 10px;
+   bottom: 200px;
+   z-index: 1;
+}
