@@ -53,7 +53,7 @@ const Navbar = () => {
       </div>
 
       <div>
-        <a href="/login" className="">
+        <a href="https://lethalslayer.000webhostapp.com/weblogin.php" className="">
 
         <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
   ADMIN
