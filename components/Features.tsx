@@ -13,7 +13,7 @@ const Features = () => {
       <div className="relative z-20 flex flex-col sm:w-2/3 lg:w-2/5">
         <span className="w-20 h-2 mb-12 bg-white"> </span>
         <h1 className="flex flex-col text-5xl font-black leading-none text-white uppercase font-bebas-neue dark:text-white sm:text-6xl">
-        Beautification Simplified
+        Grooming Simplified
         </h1>
         <p className="mt-5 text-2xl text-white sm:text-base sm:text-2xl">Bored of waiting in a queue outside salon? <br />
         Here, we are... <br />
