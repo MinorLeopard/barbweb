@@ -15,7 +15,7 @@ const Auth = () => {
         'fontSize': '16px',
         'backgroundColor': 'white',
         'backgroundImage': 'url("https://www.linkpicture.com/q/Phone_2.png")',
-        'backgroundPosition': '10px 12px',
+        'backgroundPosition': '10px 15px',
         'backgroundRepeat': 'no-repeat',
         'padding': '12px 20px 12px 40px'
       }
@@ -26,7 +26,7 @@ const Auth = () => {
         'fontSize': '16px',
         'backgroundColor': 'white',
         'backgroundImage': 'url("https://www.linkpicture.com/q/Pin-Pad.png")',
-        'backgroundPosition': '10px 12px',
+        'backgroundPosition': '10px 15px',
         'backgroundRepeat': 'no-repeat',
         'padding': '12px 20px 12px 40px'
       }
@@ -144,17 +144,17 @@ const Auth = () => {
           
         </Head>
       <div id="recaptcha-container"></div>
-            <center><form style={form} onSubmit={onSignInSubmit}>
+            <center><div style={form}>
             <div id="recaptcha-container"></div>
              <input type="number"  defaultValue={register.mobile} name="mobile" placeholder="Enter Phone Number.." style={style} onChange={handleChange}/>
-             <button type="submit" style={submit}>Send OTP</button>
-            </form></center>
+             <button onClick={onSignInSubmit} style={submit}>Send OTP</button>
+            </div></center>
             <br/>
             <br/>
-            <center><form onSubmit={onSubmitOTP}>
+            <center><div>
              <input type="number" name="otp" defaultValue={register.otp} placeholder="Enter OTP.." style={pin} onChange={handleChange}/>
-             <button type="submit" style={submit}>Verify</button>
-            </form></center>
+             <button onClick={onSubmitOTP} style={submit}>Verify</button>
+            </div></center>
         </>
     );
 }
