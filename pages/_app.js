@@ -36,7 +36,7 @@ function MyApp({ Component, pageProps }) {
   <>
   <Navigation/>
   <Component {...pageProps} />
-  <Fab id="play" className="float-right position-absolute bottom-6 right-5">
+  <Fab id="play" className="position-absolute bottom-6 left-5">
   			<ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Ra1ERY1cczg" onClose={() => setOpen(false)} />
         <PlayCircleFilledWhiteIcon htmlColor='red' onClick={()=> setOpen(true)}/>
 			</Fab>
