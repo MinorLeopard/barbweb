@@ -4,7 +4,10 @@ import { getAuth, RecaptchaVerifier,signInWithPhoneNumber } from "firebase/auth"
 import {onAuthStateChanged } from "firebase/auth";
 import Swal from 'sweetalert2';
 import Head from 'next/head';
+import {useRouter} from 'next/router';
+import { Buffer } from 'buffer';
 const Auth = () => {
+  const Router = useRouter();
     const form = {
        'marginTop':'100px'
     }
@@ -130,8 +133,10 @@ const Auth = () => {
           // User is signed in, see docs for a list of available properties
           // https://firebase.google.com/docs/reference/js/firebase.User
           const uid = user.uid;
+          const phnbr = user.phoneNumber;
+          const encode = Buffer.from(phnbr).toString('base64');
           console.log(uid);
-          // ...
+          Router.push(`/profilebarb?user=${encode}`);
         } else {
           // User is signed out
           // ...
