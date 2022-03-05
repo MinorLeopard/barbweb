@@ -22,7 +22,7 @@ const Dropdown = () => {
             Contact us
           </li>
         </a>
-        <a href="https://lethalslayer.000webhostapp.com/weblogin.php">
+        <a href="https://lethalslayer.000webhostapp.com/weblogin.php" target="_blank">
             <li className="transition-all duration-150 transform hover:scale-105 hover:underline">
               ADMIN
             </li>
