@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="flex h-full max-w-3xl m-4 md:m-6">
           <div className="relative transition-all duration-300 border-t border-b border-l border-r group sm:w-full md:w-1/2 hover:bg-slate-700 md:border-r-0 bg-opacity-5">
     
-          <h1 className="pl-10 pt-10 text-4xl text-white uppercase duration-300 transform md:pl-8 md:mt-8">Barb<br/><span className="text-3xl">A salon booing app</span></h1>
+          <h1 className="pl-10 pt-10 text-4xl text-white uppercase duration-300 transform md:pl-8 md:mt-8">Barb<br/><span className="text-3xl">A salon booking app</span></h1>
     <p className="absolute p-8 pt-3 text-2xl text-green-600">
       <Typewriter
        options={{
