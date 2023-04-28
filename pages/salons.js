@@ -107,7 +107,7 @@ const Salons = ({Details}) => {
 }
 
 export async function getStaticProps() {
-    const response = await fetch("https://lethalslayer.000webhostapp.com/websitedatasalon.php",
+    const response = await fetch("https://lethalslayer2.000webhostapp.com/websitedatasalon.php",
       {
         method: "GET",
         headers: {
